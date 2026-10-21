@@ -1,0 +1,3102 @@
+{
+  "asOf": "2026-10-15",
+  "cutoff": "2026-10-31",
+  "source": "https://www.piaad1.org/sports/fall-sports/football/scores-and-rankings/",
+  "rulesSource": "https://www.piaad1.org/sports/fall-sports/football/power-ranking/",
+  "teams": [
+    {
+      "name": "PENNRIDGE",
+      "cls": "6A",
+      "w": 7,
+      "l": 0,
+      "points": 1220,
+      "officialSeed": 1,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PLYMOUTH WHITEMARSH",
+      "cls": "6A",
+      "w": 6,
+      "l": 0,
+      "points": 990,
+      "officialSeed": 2,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "DOWNINGTOWN EAST",
+      "cls": "6A",
+      "w": 6,
+      "l": 0,
+      "points": 990,
+      "officialSeed": 3,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CB WEST",
+      "cls": "6A",
+      "w": 6,
+      "l": 1,
+      "points": 1110,
+      "officialSeed": 4,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "SPRING-FORD",
+      "cls": "6A",
+      "w": 6,
+      "l": 1,
+      "points": 1000,
+      "officialSeed": 5,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "DOWNINGTOWN WEST",
+      "cls": "6A",
+      "w": 5,
+      "l": 2,
+      "points": 950,
+      "officialSeed": 6,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "RIDLEY",
+      "cls": "6A",
+      "w": 6,
+      "l": 1,
+      "points": 940,
+      "officialSeed": 7,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "NORTH PENN",
+      "cls": "6A",
+      "w": 4,
+      "l": 3,
+      "points": 830,
+      "officialSeed": 8,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CB EAST",
+      "cls": "6A",
+      "w": 4,
+      "l": 3,
+      "points": 820,
+      "officialSeed": 9,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "COATESVILLE",
+      "cls": "6A",
+      "w": 4,
+      "l": 3,
+      "points": 800,
+      "officialSeed": 10,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "OWEN J. ROBERTS",
+      "cls": "6A",
+      "w": 4,
+      "l": 3,
+      "points": 750,
+      "officialSeed": 11,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CB SOUTH",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 740,
+      "officialSeed": 12,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "QUAKERTOWN",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 690,
+      "officialSeed": 13,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UPPER DARBY",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 690,
+      "officialSeed": 14,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "COUNCIL ROCK SOUTH",
+      "cls": "6A",
+      "w": 3,
+      "l": 3,
+      "points": 570,
+      "officialSeed": 15,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "NESHAMINY",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 660,
+      "officialSeed": 16,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PENNSBURY",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 640,
+      "officialSeed": 17,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "HARRY S. TRUMAN",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 630,
+      "officialSeed": 18,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "HAVERFORD",
+      "cls": "6A",
+      "w": 3,
+      "l": 4,
+      "points": 590,
+      "officialSeed": 19,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "SOUDERTON",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 590,
+      "officialSeed": 20,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PERKIOMEN VALLEY",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 580,
+      "officialSeed": 21,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PENN WOOD",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 560,
+      "officialSeed": 22,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CONESTOGA",
+      "cls": "6A",
+      "w": 2,
+      "l": 4,
+      "points": 440,
+      "officialSeed": 23,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "ABINGTON",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 480,
+      "officialSeed": 24,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "AVON GROVE",
+      "cls": "6A",
+      "w": 1,
+      "l": 6,
+      "points": 430,
+      "officialSeed": 25,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "BOYERTOWN",
+      "cls": "6A",
+      "w": 1,
+      "l": 6,
+      "points": 410,
+      "officialSeed": 26,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "WILLIAM TENNENT",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 400,
+      "officialSeed": 27,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "BENSALEM",
+      "cls": "6A",
+      "w": 2,
+      "l": 5,
+      "points": 400,
+      "officialSeed": 28,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "NORRISTOWN",
+      "cls": "6A",
+      "w": 0,
+      "l": 7,
+      "points": 260,
+      "officialSeed": 29,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "COUNCIL ROCK NORTH",
+      "cls": "6A",
+      "w": 0,
+      "l": 7,
+      "points": 200,
+      "officialSeed": 30,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CHESTER",
+      "cls": "5A",
+      "w": 7,
+      "l": 0,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "SPRINGFIELD (DELCO)",
+      "cls": "5A",
+      "w": 6,
+      "l": 0,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "GREAT VALLEY",
+      "cls": "5A",
+      "w": 7,
+      "l": 0,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UPPER MORELAND",
+      "cls": "5A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "GARNET VALLEY",
+      "cls": "5A",
+      "w": 5,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "STRATH HAVEN",
+      "cls": "5A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UPPER PERKIOMEN",
+      "cls": "5A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "KENNETT",
+      "cls": "5A",
+      "w": 5,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UNIONVILLE",
+      "cls": "5A",
+      "w": 5,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "WC HENDERSON",
+      "cls": "5A",
+      "w": 5,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "WISSAHICKON",
+      "cls": "5A",
+      "w": 5,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "WC RUSTIN",
+      "cls": "5A",
+      "w": 4,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "INTERBORO",
+      "cls": "5A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "ACADEMY PARK",
+      "cls": "5A",
+      "w": 4,
+      "l": 3,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "POTTSTOWN",
+      "cls": "5A",
+      "w": 4,
+      "l": 3,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "WC EAST",
+      "cls": "5A",
+      "w": 4,
+      "l": 3,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PHOENIXVILLE",
+      "cls": "5A",
+      "w": 3,
+      "l": 4,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UPPER DUBLIN",
+      "cls": "5A",
+      "w": 3,
+      "l": 4,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "METHACTON",
+      "cls": "5A",
+      "w": 2,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "UPPER MERION",
+      "cls": "5A",
+      "w": 2,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "MARPLE NEWTOWN",
+      "cls": "5A",
+      "w": 1,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "HATBORO-HORSHAM",
+      "cls": "5A",
+      "w": 2,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "PENNCREST",
+      "cls": "5A",
+      "w": 2,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "OXFORD",
+      "cls": "5A",
+      "w": 1,
+      "l": 6,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "HARRITON",
+      "cls": "5A",
+      "w": 0,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "RADNOR",
+      "cls": "5A",
+      "w": 0,
+      "l": 6,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "LOWER MERION",
+      "cls": "5A",
+      "w": 0,
+      "l": 7,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CHELTENHAM",
+      "cls": "5A",
+      "w": 0,
+      "l": 0,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "POTTSGROVE",
+      "cls": "4A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "POPE JOHN PAUL II",
+      "cls": "4A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "CHICHESTER",
+      "cls": "4A",
+      "w": 5,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "BISHOP SHANAHAN",
+      "cls": "4A",
+      "w": 4,
+      "l": 3,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "LOWER MORELAND",
+      "cls": "4A",
+      "w": 6,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "SPRINGFIELD TWP.(M)",
+      "cls": "4A",
+      "w": 3,
+      "l": 4,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "SUN VALLEY",
+      "cls": "4A",
+      "w": 1,
+      "l": 6,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "RENAISSANCE ACADEMY",
+      "cls": "2A",
+      "w": 4,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "BRISTOL",
+      "cls": "2A",
+      "w": 3,
+      "l": 4,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "NEW HOPE SOLEBURY",
+      "cls": "2A",
+      "w": 2,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "MORRISVILLE",
+      "cls": "A",
+      "w": 5,
+      "l": 1,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "DELCO CHRISTIAN",
+      "cls": "A",
+      "w": 4,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "JENKINTOWN",
+      "cls": "A",
+      "w": 0,
+      "l": 5,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "official-piaa"
+    },
+    {
+      "name": "Abraham Lincoln High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 1068,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/abraham-lincoln-railsplitters/football/schedule/"
+    },
+    {
+      "name": "Appoquinimink HS (DE)",
+      "cls": null,
+      "w": 3,
+      "l": 2,
+      "points": null,
+      "officialSeed": null,
+      "recordSource": "https://www.maxpreps.com/de/west-middletown/appoquinimink-jaguars/football/schedule/",
+      "classStatus": "non-piaa-unverified",
+      "studentSource": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=100008000225",
+      "knownWholeSchoolMale": 710,
+      "knownNinthGradeTotal": 299,
+      "studentDataYear": "2024-25",
+      "enrollmentNote": "NCES provides 710 males in grades 9–12 and 299 total 9th graders. It does not disclose the required male 10–12 count; classification unverified. Possible 4A–6A."
+    },
+    {
+      "name": "Archbishop Ryan High School",
+      "cls": "3A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 281,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10"
+    },
+    {
+      "name": "Archbishop Wood High School",
+      "cls": "3A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 249,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/warminster/archbishop-wood-vikings/football/schedule/"
+    },
+    {
+      "name": "Boys' Latin of Philadelphia Charter School",
+      "cls": "4A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 371,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/boys-latin-charter-warriors/football/schedule/"
+    },
+    {
+      "name": "Central York High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 752,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10"
+    },
+    {
+      "name": "Easton Area High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 1116,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10"
+    },
+    {
+      "name": "Emmaus High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 1137,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/emmaus/emmaus-hornets/football/schedule/"
+    },
+    {
+      "name": "Executive Education Academy Charter School (PA)",
+      "cls": "3A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 200,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/allentown/executive-education-academy-charter-school/football/schedule/"
+    },
+    {
+      "name": "Exeter Township High School",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 516,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10"
+    },
+    {
+      "name": "Freedom High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 690,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/bethlehem/freedom-patriots/football/schedule/"
+    },
+    {
+      "name": "Governor Mifflin High School",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 554,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/shillington/governor-mifflin-mustangs/football/schedule/"
+    },
+    {
+      "name": "Liberty High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 1011,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/bethlehem/liberty-hurricanes/football/schedule/"
+    },
+    {
+      "name": "Lower Dauphin High School",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 516,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/hummelstown/lower-dauphin-falcons/football/schedule/"
+    },
+    {
+      "name": "Manheim Township High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 776,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/lancaster/manheim-township-blue-streaks/football/schedule/"
+    },
+    {
+      "name": "Maret School (DC)",
+      "cls": null,
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "non-piaa-unverified",
+      "studentSource": "https://www.maret.org/admission/",
+      "studentDataYear": "2026",
+      "enrollmentNote": "Private school K–12; public school-wide enrollment does not establish male enrollment in grades 10–12. Class pending signed verification.",
+      "recordSource": "https://www.maxpreps.com/dc/washington/maret-frogs/football/schedule/"
+    },
+    {
+      "name": "Murrell Dobbins CTE High School",
+      "cls": "2A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 164,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/murrell-dobbins-vo-tech/football/schedule/"
+    },
+    {
+      "name": "Northeast High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 1339,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10"
+    },
+    {
+      "name": "South Philadelphia High School",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 258,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/south-philadelphia-rams/football/schedule/"
+    },
+    {
+      "name": "Southern Lehigh High School",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 415,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=11&sportID=10"
+    },
+    {
+      "name": "The Seed School (MD)",
+      "cls": null,
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "non-piaa-unverified",
+      "studentSource": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=240002701669",
+      "knownWholeSchoolMale": 211,
+      "studentDataYear": "2024-25",
+      "enrollmentNote": "NCES reports 211 males grades 6–12, and only 159 TOTAL students grades 10–12; exact male 10–12 count unknown. Can be A or 2A (at most 2A).",
+      "recordSource": "https://www.maxpreps.com/md/baltimore/seed/football/schedule/"
+    },
+    {
+      "name": "Trenton Central HS (NJ)",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "derived-non-piaa",
+      "maleEnrollment": 1123,
+      "enrollmentGrades": "10-12",
+      "studentSource": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=341629003200",
+      "studentDataYear": "2024-25",
+      "enrollmentNote": "NCES Main Campus serves ONLY grades 10–12; 1,123 males in these grades. 6A implied under PIAA ranges; not District One signed verification.",
+      "recordSource": "https://www.maxpreps.com/nj/trenton/trenton-central-tornadoes/football/schedule/"
+    },
+    {
+      "name": "West Philadelphia High School",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 306,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/west-philadelphia-speedboys/football/schedule/"
+    },
+    {
+      "name": "William Penn HS (DE)",
+      "cls": null,
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "classStatus": "non-piaa-unverified",
+      "studentSource": "https://explore.education.delaware.gov/discover-districts-and-schools/34_490/",
+      "studentDataYear": "2025",
+      "enrollmentNote": "2025 reported whole-school enrollment 2,005, not a certified male grades 10–12 count. Class not assigned.",
+      "recordSource": "https://www.maxpreps.com/de/new-castle/william-penn-colonials/football/schedule/"
+    },
+    {
+      "name": "Wilson High School (D3)",
+      "cls": "6A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 850,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=3&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/west-lawn/wilson-bulldogs/football/schedule/"
+    },
+    {
+      "name": "Pickett Mastery Charter",
+      "cls": "5A",
+      "w": null,
+      "l": null,
+      "points": null,
+      "officialSeed": null,
+      "maleEnrollment": 227,
+      "enrollmentGrades": "9-11",
+      "classStatus": "official-piaa",
+      "classSource": "https://www.piaa.org/schools/classifications/sportDistrict.aspx?district=12&sportID=10",
+      "recordSource": "https://www.maxpreps.com/pa/philadelphia/mastery-charter-north-pickett-pumas/football/schedule/"
+    }
+  ],
+  "games": [
+    {
+      "date": "2026-08-28",
+      "home": "AVON GROVE",
+      "away": "WC HENDERSON",
+      "id": "g1",
+      "awayScore": 31,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "Archbishop Wood High School",
+      "away": "CB SOUTH",
+      "id": "g2",
+      "awayScore": 17,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "BOYERTOWN",
+      "away": "UPPER PERKIOMEN",
+      "id": "g3",
+      "awayScore": 24,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "CB WEST",
+      "away": "Easton Area High School",
+      "id": "g4",
+      "awayScore": 7,
+      "homeScore": 36,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "CONESTOGA",
+      "away": "WC EAST",
+      "id": "g5",
+      "awayScore": 35,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "COUNCIL ROCK NORTH",
+      "away": "WILLIAM TENNENT",
+      "id": "g6",
+      "awayScore": 20,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "DOWNINGTOWN WEST",
+      "away": "Freedom High School",
+      "id": "g7",
+      "awayScore": 51,
+      "homeScore": 20,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "Emmaus High School",
+      "away": "NESHAMINY",
+      "id": "g8",
+      "awayScore": 20,
+      "homeScore": 13,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "Exeter Township High School",
+      "away": "NORRISTOWN",
+      "id": "g9",
+      "awayScore": 6,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "HATBORO-HORSHAM",
+      "away": "COUNCIL ROCK SOUTH",
+      "id": "g10",
+      "awayScore": 42,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "HAVERFORD",
+      "away": "HARRY S. TRUMAN",
+      "id": "g11",
+      "awayScore": 13,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "KENNETT",
+      "away": "ABINGTON",
+      "id": "g12",
+      "awayScore": 0,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "OWEN J. ROBERTS",
+      "away": "West Philadelphia High School",
+      "id": "g13",
+      "awayScore": 26,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "PENN WOOD",
+      "away": "Boys' Latin of Philadelphia Charter School",
+      "id": "g14",
+      "awayScore": 0,
+      "homeScore": 26,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "PENNRIDGE",
+      "away": "Liberty High School",
+      "id": "g15",
+      "awayScore": 0,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "PENNSBURY",
+      "away": "Trenton Central HS (NJ)",
+      "id": "g16",
+      "awayScore": 0,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "PERKIOMEN VALLEY",
+      "away": "SPRINGFIELD (DELCO)",
+      "id": "g17",
+      "awayScore": 27,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "PLYMOUTH WHITEMARSH",
+      "away": "COATESVILLE",
+      "id": "g18",
+      "awayScore": 20,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "QUAKERTOWN",
+      "away": "Southern Lehigh High School",
+      "id": "g19",
+      "awayScore": 55,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "RIDLEY",
+      "away": "CB EAST",
+      "id": "g20",
+      "awayScore": 7,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "SPRING-FORD",
+      "away": "SOUDERTON",
+      "id": "g21",
+      "awayScore": 14,
+      "homeScore": 31,
+      "played": true
+    },
+    {
+      "date": "2026-08-28",
+      "home": "UPPER DARBY",
+      "away": "BENSALEM",
+      "id": "g22",
+      "awayScore": 7,
+      "homeScore": 54,
+      "played": true
+    },
+    {
+      "date": "2026-08-29",
+      "home": "DOWNINGTOWN EAST",
+      "away": "Northeast High School",
+      "id": "g23",
+      "awayScore": 7,
+      "homeScore": 19,
+      "played": true
+    },
+    {
+      "date": "2026-08-29",
+      "home": "Lower Dauphin High School",
+      "away": "NORTH PENN",
+      "id": "g24",
+      "awayScore": 41,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "ABINGTON",
+      "away": "NORRISTOWN",
+      "id": "g25",
+      "awayScore": 0,
+      "homeScore": 13,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "BENSALEM",
+      "away": "UPPER MORELAND",
+      "id": "g26",
+      "awayScore": 20,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "COUNCIL ROCK SOUTH",
+      "away": "PERKIOMEN VALLEY",
+      "id": "g27",
+      "awayScore": 10,
+      "homeScore": 13,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "HARRY S. TRUMAN",
+      "away": "COUNCIL ROCK NORTH",
+      "id": "g28",
+      "awayScore": 7,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "HAVERFORD",
+      "away": "GARNET VALLEY",
+      "id": "g29",
+      "awayScore": 33,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "Manheim Township High School",
+      "away": "NESHAMINY",
+      "id": "g30",
+      "awayScore": 14,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "Northeast High School",
+      "away": "COATESVILLE",
+      "id": "g31",
+      "awayScore": 9,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "PENNRIDGE",
+      "away": "SOUDERTON",
+      "id": "g32",
+      "awayScore": 11,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "RIDLEY",
+      "away": "LOWER MERION",
+      "id": "g33",
+      "awayScore": 0,
+      "homeScore": 63,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "UPPER DARBY",
+      "away": "CONESTOGA",
+      "id": "g34",
+      "awayScore": 13,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "WC EAST",
+      "away": "AVON GROVE",
+      "id": "g35",
+      "awayScore": 27,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-03",
+      "home": "WILLIAM TENNENT",
+      "away": "METHACTON",
+      "id": "g36",
+      "awayScore": 42,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "CB EAST",
+      "away": "Liberty High School",
+      "id": "g37",
+      "awayScore": 26,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "CB WEST",
+      "away": "Wilson High School (D3)",
+      "id": "g38",
+      "awayScore": 23,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "DOWNINGTOWN WEST",
+      "away": "CB SOUTH",
+      "id": "g39",
+      "awayScore": 20,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Easton Area High School",
+      "away": "PENNSBURY",
+      "id": "g40",
+      "awayScore": 7,
+      "homeScore": 32,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Exeter Township High School",
+      "away": "SPRING-FORD",
+      "id": "g41",
+      "awayScore": 21,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Governor Mifflin High School",
+      "away": "BOYERTOWN",
+      "id": "g42",
+      "awayScore": 28,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "Maret School (DC)",
+      "away": "PENN WOOD",
+      "id": "g43",
+      "awayScore": 8,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "NORTH PENN",
+      "away": "Central York High School",
+      "id": "g44",
+      "awayScore": 42,
+      "homeScore": 33,
+      "played": true
+    },
+    {
+      "date": "2026-09-04",
+      "home": "OWEN J. ROBERTS",
+      "away": "QUAKERTOWN",
+      "id": "g45",
+      "awayScore": 14,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-05",
+      "home": "KENNETT",
+      "away": "PLYMOUTH WHITEMARSH",
+      "id": "g46",
+      "awayScore": 55,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "ABINGTON",
+      "away": "COUNCIL ROCK NORTH",
+      "id": "g47",
+      "awayScore": 0,
+      "homeScore": 38,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "BENSALEM",
+      "away": "CB EAST",
+      "id": "g48",
+      "awayScore": 63,
+      "homeScore": 19,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "BOYERTOWN",
+      "away": "UNIONVILLE",
+      "id": "g49",
+      "awayScore": 27,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "CONESTOGA",
+      "away": "RADNOR",
+      "id": "g50",
+      "awayScore": 13,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "COUNCIL ROCK SOUTH",
+      "away": "PENNRIDGE",
+      "id": "g51",
+      "awayScore": 27,
+      "homeScore": 10,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "HARRY S. TRUMAN",
+      "away": "West Philadelphia High School",
+      "id": "g52",
+      "awayScore": 34,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "HAVERFORD",
+      "away": "PENNCREST",
+      "id": "g53",
+      "awayScore": 7,
+      "homeScore": 49,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "NORRISTOWN",
+      "away": "KENNETT",
+      "id": "g54",
+      "awayScore": 30,
+      "homeScore": 6,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "OWEN J. ROBERTS",
+      "away": "DOWNINGTOWN WEST",
+      "id": "g55",
+      "awayScore": 34,
+      "homeScore": 8,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "PENN WOOD",
+      "away": "HATBORO-HORSHAM",
+      "id": "g56",
+      "awayScore": 7,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "PENNSBURY",
+      "away": "Archbishop Ryan High School",
+      "id": "g57",
+      "awayScore": 0,
+      "homeScore": 16,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "PERKIOMEN VALLEY",
+      "away": "DOWNINGTOWN EAST",
+      "id": "g58",
+      "awayScore": 28,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "PLYMOUTH WHITEMARSH",
+      "away": "CB SOUTH",
+      "id": "g59",
+      "awayScore": 0,
+      "homeScore": 33,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "QUAKERTOWN",
+      "away": "NESHAMINY",
+      "id": "g60",
+      "awayScore": 28,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "SOUDERTON",
+      "away": "CB WEST",
+      "id": "g61",
+      "awayScore": 35,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "SPRING-FORD",
+      "away": "AVON GROVE",
+      "id": "g62",
+      "awayScore": 6,
+      "homeScore": 43,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "UPPER DARBY",
+      "away": "STRATH HAVEN",
+      "id": "g63",
+      "awayScore": 42,
+      "homeScore": 18,
+      "played": true
+    },
+    {
+      "date": "2026-09-10",
+      "home": "UPPER DUBLIN",
+      "away": "NORTH PENN",
+      "id": "g64",
+      "awayScore": 35,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-11",
+      "home": "RIDLEY",
+      "away": "MARPLE NEWTOWN",
+      "id": "g65",
+      "awayScore": 0,
+      "homeScore": 31,
+      "played": true
+    },
+    {
+      "date": "2026-09-11",
+      "home": "WILLIAM TENNENT",
+      "away": "CHICHESTER",
+      "id": "g66",
+      "awayScore": 34,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-12",
+      "home": "Abraham Lincoln High School",
+      "away": "COATESVILLE",
+      "id": "g67",
+      "awayScore": 31,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-17",
+      "home": "DOWNINGTOWN WEST",
+      "away": "PERKIOMEN VALLEY",
+      "id": "g68",
+      "awayScore": 21,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "AVON GROVE",
+      "away": "BOYERTOWN",
+      "id": "g69",
+      "awayScore": 19,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "CB SOUTH",
+      "away": "ABINGTON",
+      "id": "g70",
+      "awayScore": 6,
+      "homeScore": 37,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "COATESVILLE",
+      "away": "OWEN J. ROBERTS",
+      "id": "g71",
+      "awayScore": 7,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "CONESTOGA",
+      "away": "RIDLEY",
+      "id": "g72",
+      "awayScore": 35,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "COUNCIL ROCK NORTH",
+      "away": "BENSALEM",
+      "id": "g73",
+      "awayScore": 6,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "DOWNINGTOWN EAST",
+      "away": "SPRING-FORD",
+      "id": "g74",
+      "awayScore": 7,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "NESHAMINY",
+      "away": "CB EAST",
+      "id": "g75",
+      "awayScore": 35,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "NORTH PENN",
+      "away": "PENNSBURY",
+      "id": "g76",
+      "awayScore": 7,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "PENNRIDGE",
+      "away": "CB WEST",
+      "id": "g77",
+      "awayScore": 7,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "QUAKERTOWN",
+      "away": "PLYMOUTH WHITEMARSH",
+      "id": "g78",
+      "awayScore": 44,
+      "homeScore": 8,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "SOUDERTON",
+      "away": "COUNCIL ROCK SOUTH",
+      "id": "g79",
+      "awayScore": 13,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "UPPER MORELAND",
+      "away": "PENN WOOD",
+      "id": "g80",
+      "awayScore": 12,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "WC RUSTIN",
+      "away": "NORRISTOWN",
+      "id": "g81",
+      "awayScore": 0,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-18",
+      "home": "WILLIAM TENNENT",
+      "away": "LOWER MORELAND",
+      "id": "g82",
+      "awayScore": 7,
+      "homeScore": 6,
+      "played": true
+    },
+    {
+      "date": "2026-09-19",
+      "home": "ACADEMY PARK",
+      "away": "HAVERFORD",
+      "id": "g83",
+      "awayScore": 20,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-19",
+      "home": "CHESTER",
+      "away": "UPPER DARBY",
+      "id": "g84",
+      "awayScore": 13,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-09-19",
+      "home": "South Philadelphia High School",
+      "away": "HARRY S. TRUMAN",
+      "id": "g85",
+      "awayScore": 37,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "AVON GROVE",
+      "away": "BISHOP SHANAHAN",
+      "id": "g86",
+      "awayScore": 20,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "BENSALEM",
+      "away": "UPPER DUBLIN",
+      "id": "g87",
+      "awayScore": 14,
+      "homeScore": 13,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "BOYERTOWN",
+      "away": "SPRING-FORD",
+      "id": "g88",
+      "awayScore": 42,
+      "homeScore": 17,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "CB EAST",
+      "away": "PENNRIDGE",
+      "id": "g89",
+      "awayScore": 26,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "CB WEST",
+      "away": "NORTH PENN",
+      "id": "g90",
+      "awayScore": 26,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "COATESVILLE",
+      "away": "WC EAST",
+      "id": "g91",
+      "awayScore": 21,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "COUNCIL ROCK SOUTH",
+      "away": "QUAKERTOWN",
+      "id": "g92",
+      "awayScore": 24,
+      "homeScore": 21,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "DOWNINGTOWN WEST",
+      "away": "WC RUSTIN",
+      "id": "g93",
+      "awayScore": 3,
+      "homeScore": 31,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "HARRY S. TRUMAN",
+      "away": "CHICHESTER",
+      "id": "g94",
+      "awayScore": 27,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "NESHAMINY",
+      "away": "CB SOUTH",
+      "id": "g95",
+      "awayScore": 36,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "OXFORD",
+      "away": "DOWNINGTOWN EAST",
+      "id": "g96",
+      "awayScore": 49,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "PENN WOOD",
+      "away": "The Seed School (MD)",
+      "id": "g97",
+      "awayScore": 10,
+      "homeScore": 3,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "PENNCREST",
+      "away": "CONESTOGA",
+      "id": "g98",
+      "awayScore": 21,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "PENNSBURY",
+      "away": "ABINGTON",
+      "id": "g99",
+      "awayScore": 0,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "PERKIOMEN VALLEY",
+      "away": "METHACTON",
+      "id": "g100",
+      "awayScore": 7,
+      "homeScore": 56,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "POPE JOHN PAUL II",
+      "away": "OWEN J. ROBERTS",
+      "id": "g101",
+      "awayScore": 35,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "RADNOR",
+      "away": "RIDLEY",
+      "id": "g102",
+      "awayScore": 38,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "SOUDERTON",
+      "away": "COUNCIL ROCK NORTH",
+      "id": "g103",
+      "awayScore": 6,
+      "homeScore": 63,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "SPRINGFIELD (DELCO)",
+      "away": "UPPER DARBY",
+      "id": "g104",
+      "awayScore": 0,
+      "homeScore": 43,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "STRATH HAVEN",
+      "away": "HAVERFORD",
+      "id": "g105",
+      "awayScore": 14,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-09-25",
+      "home": "WILLIAM TENNENT",
+      "away": "NEW HOPE SOLEBURY",
+      "id": "g106",
+      "awayScore": 7,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-09-26",
+      "home": "NORRISTOWN",
+      "away": "UPPER MERION",
+      "id": "g107",
+      "awayScore": 31,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "BISHOP SHANAHAN",
+      "away": "DOWNINGTOWN EAST",
+      "id": "g108",
+      "awayScore": 35,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "CB EAST",
+      "away": "CB SOUTH",
+      "id": "g109",
+      "awayScore": 35,
+      "homeScore": 6,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "CB WEST",
+      "away": "ABINGTON",
+      "id": "g110",
+      "awayScore": 0,
+      "homeScore": 44,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "COUNCIL ROCK NORTH",
+      "away": "UPPER DUBLIN",
+      "id": "g111",
+      "awayScore": 38,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "DOWNINGTOWN WEST",
+      "away": "COATESVILLE",
+      "id": "g112",
+      "awayScore": 19,
+      "homeScore": 41,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "GARNET VALLEY",
+      "away": "CONESTOGA",
+      "id": "g113",
+      "awayScore": 21,
+      "homeScore": 48,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "HARRY S. TRUMAN",
+      "away": "SPRINGFIELD TWP.(M)",
+      "id": "g114",
+      "awayScore": 20,
+      "homeScore": 22,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "HATBORO-HORSHAM",
+      "away": "WILLIAM TENNENT",
+      "id": "g115",
+      "awayScore": 14,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "HAVERFORD",
+      "away": "LOWER MERION",
+      "id": "g116",
+      "awayScore": 0,
+      "homeScore": 40,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "KENNETT",
+      "away": "AVON GROVE",
+      "id": "g117",
+      "awayScore": 7,
+      "homeScore": 33,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "METHACTON",
+      "away": "SPRING-FORD",
+      "id": "g118",
+      "awayScore": 48,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "NORTH PENN",
+      "away": "NESHAMINY",
+      "id": "g119",
+      "awayScore": 0,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "PENNRIDGE",
+      "away": "PENNSBURY",
+      "id": "g120",
+      "awayScore": 6,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "PERKIOMEN VALLEY",
+      "away": "OWEN J. ROBERTS",
+      "id": "g121",
+      "awayScore": 26,
+      "homeScore": 34,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "PHOENIXVILLE",
+      "away": "NORRISTOWN",
+      "id": "g122",
+      "awayScore": 0,
+      "homeScore": 31,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "POPE JOHN PAUL II",
+      "away": "BOYERTOWN",
+      "id": "g123",
+      "awayScore": 0,
+      "homeScore": 35,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "QUAKERTOWN",
+      "away": "BENSALEM",
+      "id": "g124",
+      "awayScore": 13,
+      "homeScore": 56,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "RIDLEY",
+      "away": "UPPER DARBY",
+      "id": "g125",
+      "awayScore": 6,
+      "homeScore": 24,
+      "played": true
+    },
+    {
+      "date": "2026-10-02",
+      "home": "SOUDERTON",
+      "away": "PLYMOUTH WHITEMARSH",
+      "id": "g126",
+      "awayScore": 17,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-10-03",
+      "home": "PENN WOOD",
+      "away": "Executive Education Academy Charter School (PA)",
+      "id": "g127",
+      "awayScore": 22,
+      "homeScore": 6,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "BENSALEM",
+      "away": "Murrell Dobbins CTE High School",
+      "id": "g128",
+      "awayScore": 6,
+      "homeScore": 49,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "CB SOUTH",
+      "away": "CB WEST",
+      "id": "g129",
+      "awayScore": 45,
+      "homeScore": 13,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "COATESVILLE",
+      "away": "AVON GROVE",
+      "id": "g130",
+      "awayScore": 0,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "COUNCIL ROCK NORTH",
+      "away": "PLYMOUTH WHITEMARSH",
+      "id": "g131",
+      "awayScore": 63,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "DOWNINGTOWN EAST",
+      "away": "DOWNINGTOWN WEST",
+      "id": "g132",
+      "awayScore": 7,
+      "homeScore": 30,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "HARRY S. TRUMAN",
+      "away": "UPPER MORELAND",
+      "id": "g133",
+      "awayScore": 47,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "HAVERFORD",
+      "away": "MARPLE NEWTOWN",
+      "id": "g134",
+      "awayScore": 29,
+      "homeScore": 28,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "NESHAMINY",
+      "away": "ABINGTON",
+      "id": "g135",
+      "awayScore": 6,
+      "homeScore": 42,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "NORTH PENN",
+      "away": "PENNRIDGE",
+      "id": "g136",
+      "awayScore": 20,
+      "homeScore": 8,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "OWEN J. ROBERTS",
+      "away": "BOYERTOWN",
+      "id": "g137",
+      "awayScore": 28,
+      "homeScore": 29,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "PERKIOMEN VALLEY",
+      "away": "SPRING-FORD",
+      "id": "g138",
+      "awayScore": 28,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "POTTSTOWN",
+      "away": "NORRISTOWN",
+      "id": "g139",
+      "awayScore": 0,
+      "homeScore": 14,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "QUAKERTOWN",
+      "away": "SOUDERTON",
+      "id": "g140",
+      "awayScore": 21,
+      "homeScore": 22,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "RIDLEY",
+      "away": "SPRINGFIELD (DELCO)",
+      "id": "g141",
+      "awayScore": 20,
+      "homeScore": 0,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "SPRINGFIELD TWP.(M)",
+      "away": "WILLIAM TENNENT",
+      "id": "g142",
+      "awayScore": 2,
+      "homeScore": 36,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "UPPER DARBY",
+      "away": "RADNOR",
+      "id": "g143",
+      "awayScore": 9,
+      "homeScore": 30,
+      "played": true
+    },
+    {
+      "date": "2026-10-09",
+      "home": "UPPER DUBLIN",
+      "away": "COUNCIL ROCK SOUTH",
+      "id": "g144",
+      "awayScore": 42,
+      "homeScore": 7,
+      "played": true
+    },
+    {
+      "date": "2026-10-10",
+      "home": "PENN WOOD",
+      "away": "INTERBORO",
+      "id": "g145",
+      "awayScore": 20,
+      "homeScore": 6,
+      "played": true
+    },
+    {
+      "date": "2026-10-10",
+      "home": "PENNSBURY",
+      "away": "CB EAST",
+      "id": "g146",
+      "awayScore": 28,
+      "homeScore": 27,
+      "played": true
+    },
+    {
+      "date": "2026-10-15",
+      "home": "BOYERTOWN",
+      "away": "PERKIOMEN VALLEY",
+      "id": "g147",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "ABINGTON",
+      "away": "PENNRIDGE",
+      "id": "g148",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "Appoquinimink HS (DE)",
+      "away": "SOUDERTON",
+      "id": "g149",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "BENSALEM",
+      "away": "COUNCIL ROCK SOUTH",
+      "id": "g150",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "CB WEST",
+      "away": "NESHAMINY",
+      "id": "g151",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "CHICHESTER",
+      "away": "PENN WOOD",
+      "id": "g152",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "CONESTOGA",
+      "away": "LOWER MERION",
+      "id": "g153",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "COUNCIL ROCK NORTH",
+      "away": "QUAKERTOWN",
+      "id": "g154",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "DOWNINGTOWN EAST",
+      "away": "AVON GROVE",
+      "id": "g155",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "HATBORO-HORSHAM",
+      "away": "HARRY S. TRUMAN",
+      "id": "g156",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "HAVERFORD",
+      "away": "RIDLEY",
+      "id": "g157",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s204",
+      "date": "2026-10-16",
+      "home": "KENNETT",
+      "away": "GREAT VALLEY",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-16",
+      "home": "NORRISTOWN",
+      "away": "POTTSGROVE",
+      "id": "g158",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "NORTH PENN",
+      "away": "CB EAST",
+      "id": "g159",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "OWEN J. ROBERTS",
+      "away": "METHACTON",
+      "id": "g160",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s212",
+      "date": "2026-10-16",
+      "home": "OXFORD",
+      "away": "WC RUSTIN",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-16",
+      "home": "PENNSBURY",
+      "away": "CB SOUTH",
+      "id": "g161",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "PLYMOUTH WHITEMARSH",
+      "away": "UPPER DUBLIN",
+      "id": "g162",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s205",
+      "date": "2026-10-16",
+      "home": "SUN VALLEY",
+      "away": "BISHOP SHANAHAN",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-16",
+      "home": "UNIONVILLE",
+      "away": "DOWNINGTOWN WEST",
+      "id": "g163",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "UPPER DARBY",
+      "away": "GARNET VALLEY",
+      "id": "g164",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s214",
+      "date": "2026-10-16",
+      "home": "UPPER MERION",
+      "away": "UPPER PERKIOMEN",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "id": "s221",
+      "date": "2026-10-16",
+      "home": "UPPER MORELAND",
+      "away": "SPRINGFIELD TWP.(M)",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "id": "s222",
+      "date": "2026-10-16",
+      "home": "WC EAST",
+      "away": "Pickett Mastery Charter",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-16",
+      "home": "WC HENDERSON",
+      "away": "COATESVILLE",
+      "id": "g165",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-16",
+      "home": "WILLIAM TENNENT",
+      "away": "WISSAHICKON",
+      "id": "g166",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s218",
+      "date": "2026-10-17",
+      "home": "ACADEMY PARK",
+      "away": "INTERBORO",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-17",
+      "home": "SPRING-FORD",
+      "away": "POPE JOHN PAUL II",
+      "id": "g167",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "ABINGTON",
+      "away": "CB EAST",
+      "id": "g168",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "AVON GROVE",
+      "away": "OXFORD",
+      "id": "g169",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "BOYERTOWN",
+      "away": "METHACTON",
+      "id": "g170",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "CB SOUTH",
+      "away": "NORTH PENN",
+      "id": "g171",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "COATESVILLE",
+      "away": "DOWNINGTOWN EAST",
+      "id": "g172",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "COUNCIL ROCK SOUTH",
+      "away": "PLYMOUTH WHITEMARSH",
+      "id": "g173",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "DOWNINGTOWN WEST",
+      "away": "BISHOP SHANAHAN",
+      "id": "g174",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s206",
+      "date": "2026-10-23",
+      "home": "GREAT VALLEY",
+      "away": "Archbishop Wood High School",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "id": "s216",
+      "date": "2026-10-23",
+      "home": "INTERBORO",
+      "away": "CHICHESTER",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-23",
+      "home": "MARPLE NEWTOWN",
+      "away": "UPPER DARBY",
+      "id": "g175",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "MORRISVILLE",
+      "away": "COUNCIL ROCK NORTH",
+      "id": "g176",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "NORRISTOWN",
+      "away": "UPPER PERKIOMEN",
+      "id": "g177",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "mp-ver-20261023-pennridge-neshaminy",
+      "date": "2026-10-23",
+      "home": "PENNRIDGE",
+      "away": "NESHAMINY",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "source": "maxpreps-crosschecked-both-teams",
+      "sourceURL": "https://www.maxpreps.com/pa/perkasie/pennridge-rams/football/schedule/",
+      "verification": "Both teams MaxPreps schedules list October 23, 2026"
+    },
+    {
+      "date": "2026-10-23",
+      "home": "PENNSBURY",
+      "away": "CB WEST",
+      "id": "g178",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "POPE JOHN PAUL II",
+      "away": "PERKIOMEN VALLEY",
+      "id": "g179",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "SOUDERTON",
+      "away": "BENSALEM",
+      "id": "g180",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "SPRING-FORD",
+      "away": "OWEN J. ROBERTS",
+      "id": "g181",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "SPRINGFIELD (DELCO)",
+      "away": "CONESTOGA",
+      "id": "g182",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s219",
+      "date": "2026-10-23",
+      "home": "SPRINGFIELD TWP.(M)",
+      "away": "HATBORO-HORSHAM",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-23",
+      "home": "STRATH HAVEN",
+      "away": "RIDLEY",
+      "id": "g183",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-23",
+      "home": "UPPER DUBLIN",
+      "away": "QUAKERTOWN",
+      "id": "g184",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s215",
+      "date": "2026-10-23",
+      "home": "UPPER MERION",
+      "away": "POTTSTOWN",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-23",
+      "home": "UPPER MORELAND",
+      "away": "WILLIAM TENNENT",
+      "id": "g185",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s207",
+      "date": "2026-10-23",
+      "home": "WC HENDERSON",
+      "away": "WC EAST",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "id": "s209",
+      "date": "2026-10-23",
+      "home": "WC RUSTIN",
+      "away": "KENNETT",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-23",
+      "home": "WISSAHICKON",
+      "away": "HARRY S. TRUMAN",
+      "id": "g186",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-24",
+      "home": "PENN WOOD",
+      "away": "CHESTER",
+      "id": "g187",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "ABINGTON",
+      "away": "NORTH PENN",
+      "id": "g188",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "AVON GROVE",
+      "away": "DOWNINGTOWN WEST",
+      "id": "g189",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "BISHOP SHANAHAN",
+      "away": "COATESVILLE",
+      "id": "g190",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "CB SOUTH",
+      "away": "PENNRIDGE",
+      "id": "g191",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "CB WEST",
+      "away": "CB EAST",
+      "id": "g192",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "CONESTOGA",
+      "away": "HAVERFORD",
+      "id": "g193",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "COUNCIL ROCK SOUTH",
+      "away": "COUNCIL ROCK NORTH",
+      "id": "g194",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "DOWNINGTOWN EAST",
+      "away": "KENNETT",
+      "id": "g195",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-30",
+      "home": "GARNET VALLEY",
+      "away": "RIDLEY",
+      "id": "g196",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s208",
+      "date": "2026-10-30",
+      "home": "GREAT VALLEY",
+      "away": "WC EAST",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-30",
+      "home": "NESHAMINY",
+      "away": "PENNSBURY",
+      "id": "g197",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s213",
+      "date": "2026-10-30",
+      "home": "OXFORD",
+      "away": "UNIONVILLE",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-30",
+      "home": "PLYMOUTH WHITEMARSH",
+      "away": "BENSALEM",
+      "id": "g198",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s220",
+      "date": "2026-10-30",
+      "home": "SPRINGFIELD TWP.(M)",
+      "away": "WISSAHICKON",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "id": "s211",
+      "date": "2026-10-30",
+      "home": "STRATH HAVEN",
+      "away": "SPRINGFIELD (DELCO)",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-30",
+      "home": "UPPER DUBLIN",
+      "away": "SOUDERTON",
+      "id": "g199",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s210",
+      "date": "2026-10-30",
+      "home": "WC RUSTIN",
+      "away": "WC HENDERSON",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-30",
+      "home": "WILLIAM TENNENT",
+      "away": "HARRY S. TRUMAN",
+      "id": "g200",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-31",
+      "home": "ACADEMY PARK",
+      "away": "PENN WOOD",
+      "id": "g201",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "id": "s217",
+      "date": "2026-10-31",
+      "home": "CHESTER",
+      "away": "CHICHESTER",
+      "homeScore": null,
+      "awayScore": null,
+      "played": false,
+      "support": true
+    },
+    {
+      "date": "2026-10-31",
+      "home": "LOWER MERION",
+      "away": "UPPER DARBY",
+      "id": "g202",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    },
+    {
+      "date": "2026-10-31",
+      "home": "William Penn HS (DE)",
+      "away": "QUAKERTOWN",
+      "id": "g203",
+      "awayScore": null,
+      "homeScore": null,
+      "played": false
+    }
+  ],
+  "classRanges": [
+    {
+      "cls": "A",
+      "min": 1,
+      "max": 141
+    },
+    {
+      "cls": "2A",
+      "min": 142,
+      "max": 199
+    },
+    {
+      "cls": "3A",
+      "min": 200,
+      "max": 281
+    },
+    {
+      "cls": "4A",
+      "min": 282,
+      "max": 412
+    },
+    {
+      "cls": "5A",
+      "min": 413,
+      "max": 578
+    },
+    {
+      "cls": "6A",
+      "min": 579,
+      "max": 99999
+    }
+  ],
+  "classSource": "https://www.piaa.org/schools/classifications/requirements.aspx",
+  "scheduleAudit": {
+    "verifiedAt": "2026-10-15",
+    "scope": "All 30 District 1 Class 6A schools, 2026 varsity football schedules",
+    "added": [
+      {
+        "date": "2026-10-23",
+        "home": "PENNRIDGE",
+        "away": "NESHAMINY",
+        "sources": [
+          "https://www.maxpreps.com/pa/perkasie/pennridge-rams/football/schedule/",
+          "https://www.maxpreps.com/pa/langhorne/neshaminy-skins/football/schedule/"
+        ]
+      }
+    ],
+    "notes": [
+      "Quakertown vs Pennridge Nov 26 is outside the District 1 10-week playoff ranking window; excluded.",
+      "Upper Darby vs Haverford Nov 26 is outside the ranking window; excluded.",
+      "Ridley vs Interboro Nov 26 and Conestoga vs Marple Newtown Nov 6 are outside the ranking window; excluded.",
+      "Perkiomen Valley Oct 30 TBA PAC crossover has no opponent yet; monitor but do not fabricate a matchup.",
+      "Council Rock North vs Morrisville Oct 23 is already in the official tracker but not on the outdated MaxPreps CR North page; retain official schedule."
+    ]
+  },
+  "maxprepsSources": {
+    "PENNRIDGE": "https://www.maxpreps.com/pa/perkasie/pennridge-rams/football/schedule/",
+    "PLYMOUTH WHITEMARSH": "https://www.maxpreps.com/pa/plymouth-meeting/plymouth-whitemarsh-colonials/football/schedule/",
+    "DOWNINGTOWN EAST": "https://www.maxpreps.com/pa/exton/downingtown-east-cougars/football/schedule/",
+    "CB WEST": "https://www.maxpreps.com/pa/doylestown/central-bucks-west-bucks/football/schedule/",
+    "SPRING-FORD": "https://www.maxpreps.com/pa/royersford/spring-ford-rams/football/schedule/",
+    "DOWNINGTOWN WEST": "https://www.maxpreps.com/pa/downingtown/downingtown-west-whippets/football/schedule/",
+    "RIDLEY": "https://www.maxpreps.com/pa/folsom/ridley-raiders/football/schedule/",
+    "NORTH PENN": "https://www.maxpreps.com/pa/lansdale/north-penn-knights/football/schedule/",
+    "CB EAST": "https://www.maxpreps.com/pa/doylestown/central-bucks-east-patriots/football/schedule/",
+    "COATESVILLE": "https://www.maxpreps.com/pa/coatesville/coatesville-red-raiders/football/schedule/",
+    "OWEN J. ROBERTS": "https://www.maxpreps.com/pa/pottstown/owen-j-roberts-wildcats/football/schedule/",
+    "CB SOUTH": "https://www.maxpreps.com/pa/warrington/central-bucks-south-titans/football/schedule/",
+    "QUAKERTOWN": "https://www.maxpreps.com/pa/quakertown/quakertown-panthers/football/schedule/",
+    "UPPER DARBY": "https://www.maxpreps.com/pa/drexel-hill/upper-darby-royals/football/schedule/",
+    "COUNCIL ROCK SOUTH": "https://www.maxpreps.com/pa/holland/council-rock-south-golden-hawks/football/schedule/",
+    "NESHAMINY": "https://www.maxpreps.com/pa/langhorne/neshaminy-skins/football/schedule/",
+    "PENNSBURY": "https://www.maxpreps.com/pa/fairless-hills/pennsbury-falcons/football/schedule/",
+    "HARRY S. TRUMAN": "https://www.maxpreps.com/pa/levittown/harry-s-truman-tigers/football/schedule/",
+    "HAVERFORD": "https://www.maxpreps.com/pa/havertown/haverford-fords/football/schedule/",
+    "SOUDERTON": "https://www.maxpreps.com/pa/souderton/souderton-indians/football/schedule/",
+    "PERKIOMEN VALLEY": "https://www.maxpreps.com/pa/collegeville/perkiomen-valley-vikings/football/schedule/",
+    "PENN WOOD": "https://www.maxpreps.com/pa/lansdowne/penn-wood-patriots/football/schedule/",
+    "CONESTOGA": "https://www.maxpreps.com/pa/berwyn/conestoga-pioneers/football/schedule/",
+    "ABINGTON": "https://www.maxpreps.com/pa/abington/abington-galloping-ghosts/football/schedule/",
+    "AVON GROVE": "https://www.maxpreps.com/pa/west-grove/avon-grove-red-devils/football/schedule/",
+    "BOYERTOWN": "https://www.maxpreps.com/pa/boyertown/boyertown-bears/football/schedule/",
+    "WILLIAM TENNENT": "https://www.maxpreps.com/pa/warminster/william-tennent-panthers/football/schedule/",
+    "BENSALEM": "https://www.maxpreps.com/pa/bensalem/bensalem-fighting-owls/football/schedule/",
+    "NORRISTOWN": "https://www.maxpreps.com/pa/norristown/norristown-eagles/football/schedule/",
+    "COUNCIL ROCK NORTH": "https://www.maxpreps.com/pa/newtown/council-rock-north-indians/football/schedule/"
+  }
+}

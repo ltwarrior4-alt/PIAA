@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+live_feed.json
+maxpreps_schedule_audit.json
+*.tmp
+.DS_Store

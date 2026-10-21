@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: piaa-d1-6a-playoff-tracker-2026
+    runtime: python
+    plan: free
+    buildCommand: python -m compileall -q sync_service.py
+    startCommand: python sync_service.py --host 0.0.0.0 --port $PORT --no-browser
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: TRACKER_PUBLIC
+        value: "1"
