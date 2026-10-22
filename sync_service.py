@@ -146,11 +146,21 @@ def parse_rankings(html):
                 result[n]={'w':w,'l':l,'points':p,'seed':to_int(row[0])}
     if len(MAIN & result.keys())!=len(MAIN):
         raise ValueError(f'Incomplete 6A standings: found {len(MAIN & result.keys())}/{len(MAIN)} schools; retaining previous data')
-    # Any new ranking must not go backwards without operator review.
+    # A partially cached or out-of-date page must not overwrite a later, valid
+    # official snapshot. Compare with BOTH the original seed and the last sync.
+    previous=(cached or {}).get('rankings',{})
+    seeds=[]
     for n in MAIN:
-        now=result[n];old=INDEX[n]
+        now=result[n]; old=previous.get(n, INDEX[n])
         if now['w']+now['l'] < old['w']+old['l']:
             raise ValueError('Ranking games regressed for '+n)
+        if now['w']<0 or now['l']<0 or now['w']+now['l']>10 or now['points']<0:
+            raise ValueError('Implausible regular-season standings: '+n)
+        if now['seed'] is None or not 1<=now['seed']<=len(MAIN):
+            raise ValueError('Missing 6A seed for '+n)
+        seeds.append(now['seed'])
+    if sorted(seeds)!=list(range(1,len(MAIN)+1)):
+        raise ValueError('Published 6A seed list is incomplete or contains duplicates')
     return result
 
 def parse_schedule(html,source_team):
@@ -356,24 +366,137 @@ def fetch(url):
 def unique_fixture_key(g):return (g['date'], tuple(sorted((g['home'],g['away']))))
 
 def update_network(scores):
-    existing={unique_fixture_key(g):g for g in SEED['games']}
-    found=[];errors=[]
+    """Combine district schedules without accepting contradictory final scores.
+
+    School pages can differ by one day. The matchup is one game, not two.
+    Conflicting scores cannot be verified; keep the fixture with no final rather
+    than picking whichever school's page happened to be read first.
+    """
+    original=list(SEED['games'])
+    grouped={}
+    errors=[]
+    def same_match(a,b):
+        if {a['home'],a['away']}!={b['home'],b['away']}:return False
+        try:
+            return abs((dt.date.fromisoformat(a['date'])-dt.date.fromisoformat(b['date'])).days)<=2
+        except (ValueError,KeyError):return False
     for g in scores:
-        key=unique_fixture_key(g)
-        if key in existing:
-            orig=existing[key]
-            if (g['home']!=orig['home'] or g['away']!=orig['away']) and (orig.get('played') or g.get('played')):
-                errors.append('Home/away mismatch: '+str(key));continue
-            found.append({**g,'id':orig['id']})
+        if not g.get('date') or not g.get('home') or not g.get('away'):continue
+        key=next((k for k,x in grouped.items() if same_match(x[0],g)),None)
+        if key is None:key=len(grouped);grouped[key]=[]
+        grouped[key].append(g)
+    out=[]
+    for group in grouped.values():
+        match=group[0]
+        seed=next((x for x in original if same_match(x,match)),None)
+        base=seed or match
+        finals=set()
+        for g in group:
+            if not g.get('played') or g.get('homeScore') is None or g.get('awayScore') is None:continue
+            scores_by_team=((g['home'],int(g['homeScore'])),(g['away'],int(g['awayScore'])))
+            finals.add(tuple(sorted(scores_by_team)))
+        if len(finals)>1:
+            errors.append('Conflicting official final scores: '+match['away']+' @ '+match['home'])
+            # A contradictory score must not become a verified final.
+            out.append({**base,'id':base.get('id','live'+str(len(out)+1)),
+                        'played':False,'homeScore':None,'awayScore':None,
+                        'scoreConflict':True})
+            continue
+        if finals:
+            observed=dict(next(iter(finals)))
+            out.append({**base,'id':base.get('id','live'+str(len(out)+1)),
+                        'homeScore':observed[base['home']],
+                        'awayScore':observed[base['away']], 'played':True,
+                        'scoreSource':SCHEDULE.format(slug(match['home']))})
         else:
-            found.append({**g,'id':'live'+str(len(found)+1),'support':not (g['home'] in MAIN or g['away'] in MAIN)})
-    result={}
-    for g in found:
-        k=unique_fixture_key(g)
-        if k not in result or (g['played'] and not result[k]['played']):result[k]=g
-        elif g['played'] and result[k]['played'] and (g['homeScore'],g['awayScore'])!=(result[k]['homeScore'],result[k]['awayScore']):
-            errors.append('Conflicting final scores: '+str(k))
-    return list(result.values()),errors
+            # An unavailable school page must never erase an already verified
+            # final carried by the original October 15 district snapshot.
+            if seed and seed.get('played'):
+                out.append(dict(seed))
+            else:
+                out.append({**base,'id':base.get('id','live'+str(len(out)+1)),
+                            'played':False,'homeScore':None,'awayScore':None,
+                            'support':not (base['home'] in MAIN or base['away'] in MAIN)})
+    return out,errors
+
+
+def official_math_audit(rankings,latest_games,external):
+    """Independently reconstruct points when *every* input is confirmed.
+
+    Publication of total points and the quotient is authoritative for the
+    standings; the district does not provide a separate official win/bonus
+    subtotal. Never call a guessed opponent win record 'reconciled'.
+    """
+    all_games=[]
+    for g in list(latest_games)+list(SEED['games']):
+        if not ('2026-08-21'<=g.get('date','')<='2026-10-31'):continue
+        if any({x['home'],x['away']}=={g['home'],g['away']} and
+               abs((dt.date.fromisoformat(x['date'])-dt.date.fromisoformat(g['date'])).days)<=2
+               for x in all_games):continue
+        all_games.append(g)
+    values={}
+    classes=['6A','5A','4A','3A','2A','A']
+    for name in sorted(MAIN):
+        record=rankings[name]; expected_games=record['w']+record['l']
+        scheduled=[g for g in all_games if name in (g['home'],g['away'])]
+        completed=[g for g in scheduled if g.get('played') and
+                   isinstance(g.get('homeScore'),int) and isinstance(g.get('awayScore'),int)]
+        win_points=0;bonus_points=0;missing=[];verified_class=True
+        official_opp_records=0;secondary_opp_records=0
+        known_wins=0; known_losses=0
+        for g in completed:
+            other=g['away'] if g['home']==name else g['home']
+            mine=g['homeScore'] if g['home']==name else g['awayScore']
+            their=g['awayScore'] if g['home']==name else g['homeScore']
+            if mine==their:
+                missing.append(other+': tie requires review')
+                continue
+            if mine>their:
+                known_wins+=1
+                opponent=INDEX.get(other)
+                category=opponent.get('cls') if opponent else None
+                status=opponent.get('classStatus') if opponent else None
+                if category in classes and status=='official-piaa':
+                    win_points+=140-20*classes.index(category)
+                else:
+                    verified_class=False
+                    missing.append(other+': official playing classification not independently verified')
+            else:known_losses+=1
+            if other in rankings:
+                bonus_points+=10*rankings[other]['w'];official_opp_records+=1
+            elif other in external:
+                # May include out-of-window matches; display, do not certify.
+                secondary_opp_records+=1
+                missing.append(other+': outside-district win total is secondary/unverified')
+            else:
+                missing.append(other+': eligible opponent wins unknown')
+        if len(completed)!=expected_games:
+            missing.append(f'{len(completed)} final scores found; official record contains {expected_games} games')
+        if known_wins!=record['w'] or known_losses!=record['l']:
+            missing.append(f'W-L from verified scores {known_wins}-{known_losses} vs official {record["w"]}-{record["l"]}')
+        divisor=expected_games or None
+        rating=round(record['points']/divisor,3) if divisor else None
+        # All completed games and opponents must have reliable data before
+        # comparing the reconstructed sum with District 1 published points.
+        complete=not missing and len(completed)==expected_games
+        difference=record['points']-win_points-bonus_points if complete else None
+        values[name]={
+            'seed':record['seed'],'record':f'{record["w"]}-{record["l"]}',
+            'officialPoints':record['points'], 'officialRating':rating,
+            'calculatedWinPoints':win_points if complete else None,
+            'calculatedBonusPoints':bonus_points if complete else None,
+            'componentDifference':difference,
+            'verifiedFinalScores':len(completed), 'gamesInOfficialRecord':expected_games,
+            'verifiedDistrictOpponentRecords':official_opp_records,
+            'secondaryOpponentRecords':secondary_opp_records,
+            'status':('verified-match' if difference==0 else 'verified-discrepancy') if complete else 'incomplete',
+            'issues':sorted(set(missing))}
+    return {'officialRatingsVerified':sum(1 for x in values.values() if x['officialRating'] is not None),
+            'componentMatches':sum(x['status']=='verified-match' for x in values.values()),
+            'incomplete':sum(x['status']=='incomplete' for x in values.values()),
+            'componentDiscrepancies':sum(x['status']=='verified-discrepancy' for x in values.values()),
+            'teams':values,
+            'note':'District 1 does not publish the win/bonus split; components are independently reconstructed only with verified games, class and eligible opponent wins.'}
 
 def scrape_once(http_get=fetch,team_names=None,external_sources=None):
     standing=parse_rankings(http_get(STANDINGS))
@@ -419,7 +542,7 @@ def scrape_once(http_get=fetch,team_names=None,external_sources=None):
             if err:warnings.append(err)
     if not any(g['home'] in MAIN or g['away'] in MAIN for g in matches):
         warnings.append('No 6A school schedules returned; rankings will still refresh')
-    return {'checkedAt':dt.datetime.now(dt.timezone.utc).isoformat(), 'rankings':standing,'games':matches,'externalRecords':external,'warnings':warnings+errors, 'source':STANDINGS,'schoolSchedulesRead':len(names),'supplementalRecordsRead':len(external),'teamCount6A':len(MAIN),'maxprepsAudit':audit}
+    return {'checkedAt':dt.datetime.now(dt.timezone.utc).isoformat(), 'rankings':standing,'games':matches,'externalRecords':external,'mathAudit':official_math_audit(standing,matches,external),'warnings':warnings+errors, 'source':STANDINGS,'schoolSchedulesRead':len(names),'supplementalRecordsRead':len(external),'teamCount6A':len(MAIN),'maxprepsAudit':audit}
 
 def store_live(feed):
     tmp=CACHE.with_suffix('.tmp');tmp.write_text(json.dumps(feed,indent=2,ensure_ascii=False),encoding='utf8');tmp.replace(CACHE)
@@ -477,6 +600,9 @@ class Handler(BaseHTTPRequestHandler):
         if path=='/api/refresh':
             started,message=refresh_if_due()
             return self.json({'started':started,'message':message})
+        if path=='/api/audit':
+            with lock:doc={'ok':bool(cached),'checkedAt':cached.get('checkedAt') if cached else None,'mathAudit':cached.get('mathAudit',{}) if cached else {}}
+            return self.json(doc)
         if path=='/health':
             with lock:doc={'status':'ok','refreshing':active,'lastSuccess':cached.get('checkedAt') if cached else None}
             return self.json(doc)
