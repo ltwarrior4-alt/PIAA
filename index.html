@@ -11,19 +11,53 @@
 .bracket-wrap{padding:10px 20px 25px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.match{border:1px solid #e1eaf0;border-radius:11px;overflow:hidden}.match .match-head{background:#f6f8fa;padding:8px 13px;color:#7b899b;font-size:10.5px;text-transform:uppercase;font-weight:800;letter-spacing:.6px}.match .match-team{display:flex;align-items:center;gap:9px;padding:12px 13px;border-top:1px solid #ecf0f3;font-size:13px}.match-team b{font-size:12px;color:#8093a7;width:25px}.match-team span{font-weight:800;flex:1}.match-team small{color:#8795a6;font-variant-numeric:tabular-nums}.playoff-note{padding:0 20px 20px;color:#8291a3;font-size:12px}.opps{padding:0 16px 16px}.opp-row{display:grid;grid-template-columns:minmax(0,1fr) 92px 75px 67px 85px;gap:8px;align-items:center;border-top:1px solid #edf2f6;padding:9px 4px}.opp-row .name{font-size:12px;font-weight:750;white-space:normal}.opp-row .name small{display:block;font-size:11px;color:#8796a6;font-weight:500;margin-top:4px}.opp-row input,.opp-row select{width:100%;min-width:0;min-height:35px}.labelrow{display:grid;grid-template-columns:minmax(0,1fr) 92px 75px 67px 85px;gap:8px;font-size:10px;color:#8391a2;font-weight:800;text-transform:uppercase;padding:8px 4px;letter-spacing:.4px}.detail-drawer{padding:18px 20px;border-top:1px solid var(--border);background:#fafdfd}.detail-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.detail-head h3{font-size:17px;margin:0}.detail-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:16px 0}.mini-stat{background:#fff;border:1px solid #e7ecf0;border-radius:8px;padding:11px}.mini-stat span{display:block;color:#8492a2;font-size:10px;font-weight:800;text-transform:uppercase;margin-bottom:6px}.mini-stat b{font-size:18px}.detail-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.detail-game{background:#fff;border:1px solid #e6ebef;border-radius:8px;padding:8px 10px;display:flex;justify-content:space-between;gap:10px;font-size:11.5px}.detail-game span:first-child{min-width:0}.detail-game span:last-child{white-space:nowrap;font-weight:800}.detail-game .win{color:#0b906e}.detail-game .lose{color:#ce4c5d}.compare-row{display:grid;grid-template-columns:42px minmax(0,1fr) 135px 135px;gap:12px;padding:13px 19px;align-items:center;border-top:1px solid #eff3f6;font-size:12px}.compare-row:nth-child(even){background:#fbfcfe}.compare-row strong{font-size:13px}.compare-row span{text-align:right}.foot{margin-top:35px;padding:18px 0;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:#8593a5;font-size:12px;border-top:1px solid #dde3e9}.foot a{color:#3a7191}.empty{padding:35px;text-align:center;color:#8897a6}.modal{position:fixed;inset:0;background:rgba(10,26,45,.63);display:none;align-items:center;justify-content:center;padding:15px;z-index:9}.modal.show{display:flex}.modal-card{background:#fff;width:min(560px,100%);max-height:90vh;overflow:auto;border-radius:17px;box-shadow:0 24px 80px #0004}.modal-header{padding:22px 25px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}.modal-content{padding:22px 25px}.modal-content label{display:block;margin:10px 0 6px;font-weight:800;font-size:12px}.modal-footer{padding:16px 25px;border-top:1px solid var(--border);display:flex;gap:8px;justify-content:flex-end}.modal-x{border:0;background:#f1f3f6;border-radius:50%;width:31px;height:31px}.hint{font-size:11px;color:#8392a3}.toast{position:fixed;bottom:20px;right:20px;padding:12px 17px;background:#10283c;color:#fff;border-radius:10px;opacity:0;transform:translateY(12px);transition:.2s;pointer-events:none;z-index:20;font-size:12px;max-width:320px}.toast.show{opacity:1;transform:translateY(0)}
 @media(max-width:1040px){.main-grid,.wide-section{grid-template-columns:1fr}.statgrid{grid-template-columns:repeat(2,1fr)}.hero{align-items:flex-start}.side-stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.side-stack .panel{display:block}}@media(max-width:640px){.shell,.top-inner{padding-left:14px;padding-right:14px}.hero{display:block}.hero-actions{margin-top:16px}.statgrid{gap:8px}.stat{padding:14px}.stat .num{font-size:25px}.panel-head{display:block}.panel-head .toolbar{margin-top:11px}.game-row{grid-template-columns:1fr;gap:6px}.bracket-wrap,.detail-list{grid-template-columns:1fr}.detail-grid{grid-template-columns:repeat(2,1fr)}.side-stack{display:block}.search{width:100%}.compare-row{grid-template-columns:30px minmax(0,1fr) 70px 70px;gap:5px}}
 .livebar{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:12px;background:#e4f8f0;border:1px solid #b5e7d3;padding:12px 15px;border-radius:12px;margin-top:18px;font-size:12px}.livebar.off{background:#fff8eb;border-color:#ebdab4}.livebar strong{font-weight:900}.livebar .tiny{white-space:nowrap}.livebar .status{font-size:12px;color:#476577;line-height:1.5}.opp-row .name a{color:#246b88;text-decoration:underline}.opp-row input[data-enroll]{max-width:100%} @media(max-width:700px){.opps{overflow-x:auto}.opp-row,.labelrow{min-width:700px}}
+
+/* Point verification assistant */
+.numbers-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:16px;align-items:start}
+.numbers-panel{padding:18px 21px}.numbers-panel h3{margin:0 0 10px;font-size:15px}
+.numbers-panel > p{line-height:1.5}.numbers-actions{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.numbers-actions select{min-width:230px;max-width:100%}.numbers-summary{background:#eff7fa;padding:12px 14px;border-radius:9px;color:#36556c;font-size:12px;line-height:1.6;margin-bottom:12px}
+.numbers-summary small{display:block;color:#627b8b;margin-top:4px}.numbers-report{margin:12px 0;font-size:12px;line-height:1.65}
+.numbers-report-title{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:12px 0;font-size:14px}
+.numbers-equation{margin:8px 0;background:#f5f8fb;border:1px solid #e7edf3;border-radius:8px;padding:9px 11px}
+.numbers-caution{padding:9px 10px;background:#fff8e9;border-left:3px solid #eab85d;border-radius:4px;margin:9px 0;color:#705521}
+.numbers-ok{padding:9px 10px;background:#eaf8f0;color:#146e4e;border-radius:6px;margin:9px 0}
+.numbers-source{font-size:11px;line-height:1.55;color:#6b7d8f;margin-top:10px}
+.audit-ledger-wrap,.numbers-smalltable{overflow:auto;max-height:350px;border:1px solid #e4e9ed;border-radius:7px}
+.audit-ledger{font-size:11px;line-height:1.5}.audit-ledger td,.audit-ledger th{padding:7px 8px}.audit-ledger th{font-size:9px}
+.numbers-smalltable{max-height:370px}.numbers-smalltable table{font-size:11px}
+.numbers-chat{height:490px;overflow-y:auto;background:#f7fafc;border:1px solid #e9eef3;border-radius:11px;padding:12px;display:flex;flex-direction:column;gap:12px;scroll-behavior:smooth}
+.number-message{max-width:96%;font-size:12px;line-height:1.6;padding:11px 13px;border-radius:12px;border:1px solid #e1e8ed;background:white;overflow-wrap:anywhere}
+.number-message.from-user{align-self:flex-end;background:#ddf6eb;border-color:#aee5cd;max-width:85%;color:#164e3d}
+.number-message p{margin:0 0 8px}.number-message p:last-child{margin-bottom:0}
+.numbers-chat-controls{display:flex;gap:8px;margin-top:10px}.numbers-chat-controls input{min-width:0;flex:1}
+.numbers-chips{display:flex;gap:5px;flex-wrap:wrap;margin:10px 0}.numbers-chips button{font-size:11px;font-weight:700;border:1px solid #cce8df;background:#f1fbf6;color:#237b61;border-radius:15px;padding:6px 10px}
+@media(max-width:960px){.numbers-grid{grid-template-columns:1fr}}@media(max-width:520px){.numbers-actions select{min-width:0;width:100%}.numbers-chat{height:420px}}
 </style></head>
 <body>
 <header class="top"><div class="top-inner"><div class="eyebrow"><i></i> 2026 FOOTBALL • DISTRICT ONE • CLASS 6A</div><div class="hero"><div><h1>Playoff Lab <span style="color:#39d2a2">/ 6A</span></h1><p>Build an outcome. See every ripple. Follow the race for 16 playoff spots.</p></div><div class="hero-actions"><button class="btn ghost" id="exportBtn">↓ Export scenario</button><button class="btn ghost" id="importBtn">↑ Import</button><button class="btn primary" id="saveBtn">＋ Save scenario</button></div></div><div class="snapshot"><span class="pill dark">● <span id="headerSnapshot">Official Oct 15 snapshot</span></span><span>Rankings and schedules from <a href="https://www.piaad1.org/sports/fall-sports/football/scores-and-rankings/" target="_blank" rel="noreferrer">PIAA District 1</a></span><span>•</span><span>Seeding meeting Nov 1, 2026</span></div></div></header>
 <main class="shell">
 <div id="liveBar" class="livebar off"><div><strong id="liveLabel">Waiting for official scores</strong><div id="liveStatus" class="status">Shared website: official results update automatically while the service is running.</div></div><button class="btn tiny" id="refreshNowBtn" title="Check the shared official-results feed">↻ Check official results</button></div>
-<div class="tabs" role="tablist"><button class="tab active" data-tab="standings">Standings & seeds</button><button class="tab" data-tab="games">What-if games</button><button class="tab" data-tab="bracket">Playoff bracket</button><button class="tab" data-tab="opponents">Opponent adjustments</button><button class="tab" data-tab="audit">Schedule audit</button><button class="tab" data-tab="compare">Compare scenarios</button></div>
+<div class="tabs" role="tablist"><button class="tab active" data-tab="standings">Standings & seeds</button><button class="tab" data-tab="games">What-if games</button><button class="tab" data-tab="bracket">Playoff bracket</button><button class="tab" data-tab="opponents">Opponent adjustments</button><button class="tab" data-tab="audit">Schedule audit</button><button class="tab" data-tab="compare">Compare scenarios</button><button class="tab" data-tab="numbers">🔎 Check the Numbers</button></div>
 <div class="statgrid"><div class="stat"><div class="mini">6A teams <span class="stat-icon">♜</span></div><div class="num" id="statTeams">30</div><small>District 1 schools</small></div><div class="stat"><div class="mini">Playoff positions <span class="stat-icon">🏆</span></div><div class="num green">16</div><small>Top 16 advance</small></div><div class="stat"><div class="mini">Games picked <span class="stat-icon">☑</span></div><div class="num" id="statPicks">0 / 58</div><small>6A remaining matchups</small></div><div class="stat"><div class="mini">Scenario <span class="stat-icon">⚡</span></div><div class="num" id="statScenario" style="font-size:21px;line-height:2">New scenario</div><small>Editable projections</small></div></div>
 <div id="dataNotice" class="notice"><strong>How this model works:</strong> It starts with the official published total points and 2026 game records. Future results add the appropriate win points and propagate +10 for every additional win to every 6A team that has already faced that opponent. New game bonus points use the opponent's projected win count. Future games not selected are excluded from both the numerator and divisor. Unmodeled opponents' remaining games require manual adjustments.</div>
 <section class="section active" id="section-standings"><div class="main-grid"><div class="panel"><div class="panel-head"><div><h2>2026 Power Rankings</h2><div class="panel-sub" id="standingsLabel">Official standings • as of October 15, 2026</div></div><div class="toolbar"><input class="field search" id="searchTeam" placeholder="⌕ Search team" aria-label="Search team"><select class="filter" id="rankView"><option value="all">All 30 teams</option><option value="playoffs">Playoff field (1–16)</option><option value="bubble">Bubble (10–22)</option></select></div></div><div class="table-wrap"><table><thead><tr><th class="center">Seed</th><th class="center">±</th><th>Team</th><th class="center">W–L</th><th class="right">Rating</th><th class="right">Points</th><th class="right">Played</th><th class="right">Open</th><th>Status</th></tr></thead><tbody id="rankingRows"></tbody></table></div><div id="teamDetail" style="display:none"></div></div><div class="side-stack"><div class="panel"><div class="side-card"><h3>Scenario workspace</h3><label class="side-label">Selected scenario</label><select id="scenarioSelect" class="field"></select><div class="side-actions" style="margin-top:11px"><button class="btn tiny" id="newBtn">New</button><button class="btn tiny" id="overwriteBtn">Update saved</button><button class="btn tiny danger" id="deleteBtn">Delete</button></div><hr class="divider"><div class="minihelp">Game picks and opponent adjustments update the rankings instantly. Changes are saved in this browser when storage is available. Use Export for a portable backup.</div></div><div class="side-card"><h3>Projection completion</h3><div class="kpi-row"><span>6A fixtures decided</span><b id="pickedCount">0 / 58</b></div><div class="progress"><div id="progressBar" style="width:0%"></div></div><div class="minihelp" id="projectionWarning"></div></div><div class="side-card"><h3>Playoff cutoff</h3><div id="cutoffInfo"></div><div class="side-actions" style="margin-top:13px"><button class="btn tiny" data-goto="games">Pick games →</button><button class="btn tiny" data-goto="bracket">View bracket →</button></div></div></div><div class="panel"><div class="side-card"><h3>What moves the rankings?</h3><div class="range-list"><div class="range-item"><span class="inline"><span class="dot"></span> Winning vs. 6A</span><b>+140 pts</b></div><div class="range-item"><span class="inline"><span class="dot"></span> Winning vs. 5A</span><b>+120 pts</b></div><div class="range-item"><span class="inline"><span class="dot"></span> Opponent wins</span><b>+10 pts</b></div></div><p class="minihelp">The opponent-win bonus applies after a win <strong>or</strong> loss. Division by games played determines the rating.</p><a target="_blank" rel="noreferrer" href="https://www.piaad1.org/sports/fall-sports/football/power-ranking/" style="font-size:12px;color:#287e95">Official formula ↗</a></div></div></div></div></section>
-<section class="section" id="section-games"><div class="wide-section"><div class="panel"><div class="panel-head"><div><h2>Remaining matchups</h2><div class="panel-sub">Select either winner. Each matchup appears once, even if both schools are in 6A.</div></div><div class="toolbar"><button class="btn tiny" id="favoritesBtn">⚡ Pick record favorites</button><button class="btn tiny danger" id="clearPicksBtn">Clear picks</button></div></div><div class="game-controls"><select id="gameTeamFilter" class="field" aria-label="Filter by team"><option value="">Every team</option></select><select class="field" id="weekFilter"><option value="">All upcoming dates</option><option value="2026-10-15">Oct 15–18</option><option value="2026-10-19">Oct 19–25</option><option value="2026-10-26">Oct 26–31</option></select><select class="field" id="gameTypeFilter"><option value="main">6A games</option><option value="support">Supporting games only</option><option value="all">All available games</option></select></div><div id="gameRows"></div></div><div class="side-stack"><div class="panel"><div class="side-card"><h3>Scenario actions</h3><p class="minihelp">Pick an outcome for a game involving 6A or a supporting opponent. The opponent's extra win is shared across every team that played them.</p><button class="btn primary" id="gamesSaveBtn" style="width:100%">Save this scenario</button><button class="btn" id="addGameBtn" style="width:100%;margin-top:9px">+ Add supporting game</button><div class="notice alert" style="margin-bottom:0"><strong>Missing games:</strong> The linked schedule is not exhaustive for non-6A schools. Enter wins from their other games under Opponent adjustments to model their full final records.</div></div></div></div></div></section>
+<section class="section" id="section-games"><div class="wide-section"><div class="panel"><div class="panel-head"><div><h2>Remaining matchups</h2><div class="panel-sub">Select either winner. Each matchup appears once, even if both schools are in 6A.</div></div><div class="toolbar"><button class="btn tiny" id="favoritesBtn">⚡ Pick record favorites</button><button class="btn tiny danger" id="clearPicksBtn">Clear picks</button></div></div><div class="game-controls"><select id="gameTeamFilter" class="field" aria-label="Filter by team"><option value="">Every team</option></select><select class="field" id="weekFilter"><option value="">All uncompleted matchups</option><option value="2026-10-15">Oct 15–18</option><option value="2026-10-19">Oct 19–25</option><option value="2026-10-26">Oct 26–31</option></select><select class="field" id="gameTypeFilter"><option value="main">6A games</option><option value="support">Supporting games only</option><option value="all">All available games</option></select></div><div id="countedGamesNotice" class="notice" style="margin:12px 16px 4px"></div><div id="gameRows"></div></div><div class="side-stack"><div class="panel"><div class="side-card"><h3>Scenario actions</h3><p class="minihelp">Pick an outcome for a game involving 6A or a supporting opponent. The opponent's extra win is shared across every team that played them.</p><button class="btn primary" id="gamesSaveBtn" style="width:100%">Save this scenario</button><button class="btn" id="addGameBtn" style="width:100%;margin-top:9px">+ Add supporting game</button><div class="notice alert" style="margin-bottom:0"><strong>Missing games:</strong> The linked schedule is not exhaustive for non-6A schools. Enter wins from their other games under Opponent adjustments to model their full final records.</div></div></div></div></div></section>
 <section class="section" id="section-bracket"><div class="panel"><div class="panel-head"><div><h2>Projected first-round bracket</h2><div class="panel-sub">Top 16 seeds • District 1 Class 6A • November 6, 2026 • Higher seed hosts</div></div><div class="pill warn">Scenario—not an official bracket</div></div><div class="bracket-wrap" id="bracketRows"></div><div class="playoff-note">Pairings reflect the currently calculated seeds: 1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 3 vs 14, 6 vs 11, 7 vs 10, and 2 vs 15. All ties are provisional until the District applies its full tiebreaking procedures.</div></div></section>
 <section class="section" id="section-opponents"><div class="main-grid"><div class="panel"><div class="panel-head"><div><h2>Opponent bonus-point adjustments</h2><div class="panel-sub">Account for outside games that aren't listed in the 6A-linked game network.</div></div><input class="field search" id="oppSearch" placeholder="⌕ Search opponents"></div><div class="opps"><div class="labelrow"><div>Opponent / verification</div><div>Base wins</div><div>Extra wins</div><div>Class</div><div>Male 10–12</div></div><div id="oppRows"></div></div></div><div class="side-stack"><div class="panel"><div class="side-card"><h3>Important calculation rules</h3><p class="minihelp"><strong>Base wins:</strong> the opponent's published or supplemental wins at the last successful refresh. District 1 schools are prefilled from official standings. For schools outside District 1, this field may be blank until confirmed.</p><p class="minihelp"><strong>Additional:</strong> predicted wins from games <strong>not</strong> already selected in What-if games. Do not count a game twice.</p><p class="minihelp"><strong>Class:</strong> official PIAA assigned football classes are preloaded for PA schools in Districts 3, 11 and 12. For non-PIAA schools, enter the verified MALE enrollment in grades 10–12; the class will be calculated automatically from the 2026 thresholds.</p><p class="minihelp">Enrollment totals for all grades, or male totals for 9–12, do not prove the required male 10–12 count. Signed forms must be reviewed by District One; manual classifications are scenario assumptions until verified.</p><div class="notice alert">Unknown wins or classifications can make projected points incomplete. The official base totals are retained exactly.</div></div></div></div></div></section>
 <section class="section" id="section-audit"><div class="wide-section"><div class="panel"><div class="panel-head"><div><h2>MaxPreps schedule cross-check</h2><div class="panel-sub">30 Class 6A varsity team pages • schedule comparison only • official District 1 rankings control points</div></div><button class="btn tiny" id="goCheckResults">Check results &amp; audit</button></div><div class="side-card"><div class="notice" id="auditSummary">October 15 schedule comparison loaded. The hosted service checks MaxPreps schedules periodically when available.</div><div class="minihelp">A game listed on both teams' schedules can be added if it is inside the 2026 ranking period and not already in the official schedule. Missing opponents, unconfirmed dates, and source failures are flagged rather than silently inventing games.</div></div><div class="side-card"><h3>Cross-check findings</h3><div id="auditFindings"></div></div><div class="side-card"><h3>Team-by-team schedule links</h3><div class="table-wrap"><table><thead><tr><th>6A school</th><th class="center">Tracker games</th><th>MaxPreps source</th><th>Audit status</th></tr></thead><tbody id="auditTeamRows"></tbody></table></div><div class="minihelp">The hosted service checks MaxPreps on a six-hour schedule, while District 1 results continue refreshing every 15 minutes. MaxPreps may be stale or temporarily block a request; that is reported explicitly.</div></div></div></div></section><section class="section" id="section-compare"><div class="panel"><div class="panel-head"><div><h2>Scenario comparison</h2><div class="panel-sub">Compare saved outcome combinations, seeds, and power ratings side-by-side.</div></div><div class="toolbar"><select class="field" id="compareA"></select><span class="muted">vs</span><select class="field" id="compareB"></select></div></div><div id="compareRows"></div></div></section>
+
+<section class="section" id="section-numbers">
+ <div class="panel" style="margin-bottom:16px"><div class="panel-head"><div><h2>Point audit &amp; calculation chatbot</h2><div class="panel-sub">Check each game's win points and opponent bonus points. Never guess missing outside-opponent records.</div></div><a class="btn tiny" href="https://www.piaad1.org/sports/fall-sports/football/power-ranking/" target="_blank" rel="noreferrer">Official scoring rules ↗</a></div>
+ <div class="panel-body"><div class="notice" style="margin-top:0"><strong>What this assistant can verify:</strong> Official starting total ÷ games, scenario changes, opponent-win bonuses, classification-based win points, and whether the stored game list reconciles with published totals. <strong>Important:</strong> An unreconstructed amount is not necessarily an error when an outside opponent's record is missing. The chat runs inside your browser using explicit scoring rules; it is not a general-purpose AI or independent live web search.</div><div id="numbersSummary" class="numbers-summary" aria-live="polite"></div></div></div>
+ <div class="numbers-grid">
+  <div class="panel numbers-panel"><h3>Verify any 6A team's total</h3><div class="numbers-actions"><select class="field" id="numbersTeam" aria-label="Choose team for points check"></select><button class="btn tiny primary" id="numbersTeamAsk">Explain this team</button><button class="btn tiny" id="numbersExport">↓ Export all audits (CSV)</button></div><div id="numbersTeamReport"></div><h3 style="margin:18px 0 7px">All-team reconciliation</h3><div class="table-wrap" style="max-height:380px"><table><thead><tr><th>School</th><th class="right">Official</th><th class="right">Known</th><th class="right">Unreconstructed</th><th>Status</th></tr></thead><tbody id="numbersAuditRows"></tbody></table></div></div>
+  <div class="panel numbers-panel"><h3>Ask the numbers assistant</h3><p class="minihelp" style="margin:0 0 8px">Examples: “Why does Penn Wood have 560 points?” or “How many bonus points would North Penn gain?” Answers use your current saved game picks.</p><div id="numbersChatMessages" class="numbers-chat" role="log" aria-live="polite" aria-label="Calculation chat messages"></div>
+   <form id="numbersChatForm" class="numbers-chat-controls"><input class="field" id="numbersChatInput" type="text" maxlength="400" autocomplete="off" aria-label="Ask question about rankings or points" placeholder="Ask why a team's points don't add up…" required><button class="btn primary" type="submit">Ask ↗</button></form>
+   <div class="numbers-chips"><button type="button" data-ask="Audit all teams">Audit all teams</button><button type="button" data-ask="Check Pennridge's points">Check Pennridge</button><button type="button" data-ask="Why don't Penn Wood's points add up?">Explain Penn Wood gap</button><button type="button" data-ask="How are bonus points calculated?">Explain the formula</button><button type="button" data-ask="Compare North Penn vs CB East">Compare teams</button></div>
+  </div>
+ </div>
+</section>
 <div class="foot"><div>2026 District 1 6A Playoff Lab · Shared official feed · automatic refresh for everyone · official published scores · scenarios saved locally</div><div><a href="https://www.piaad1.org/sports/fall-sports/football/scores-and-rankings/" target="_blank">Official standings</a> · <a href="https://www.piaad1.org/sports/fall-sports/football/general-information/" target="_blank">Playoff format</a> · <a href="https://www.piaad1.org/sports/fall-sports/football/power-ranking/" target="_blank">Ranking rules</a></div></div>
 </main>
 <div class="modal" id="addModal"><div class="modal-card"><div class="modal-header"><strong>Add a supporting matchup</strong><button class="modal-x" id="modalClose">×</button></div><div class="modal-content"><p class="minihelp">Add games played by outside opponents to calculate their wins once without manual double-counting. Only games through Oct 31 may affect 2026 District 1 seedings.</p><label>Date</label><input class="field" id="newDate" type="date" min="2026-10-15" max="2026-10-31" value="2026-10-23" style="width:100%"><label>Home team</label><select class="field" id="newHome" style="width:100%"></select><label>Away team</label><select class="field" id="newAway" style="width:100%"></select><p class="hint">An existing matchup with these teams on this date cannot be added again.</p><div id="newGameError" class="hint" style="color:#ad364b"></div></div><div class="modal-footer"><button class="btn" id="modalCancel">Cancel</button><button class="btn primary" id="modalAdd">Add matchup</button></div></div></div>
@@ -48,16 +82,25 @@ function clone(x){return JSON.parse(JSON.stringify(x))}
 function allGames(state=current){return DATA.games.concat(state.customGames||[])}
 function isMain(g){return MAINSET.has(g.home)||MAINSET.has(g.away)}
 function validGame(g){return g.date>= '2026-08-21' && g.date<='2026-10-31'}
-function isFuture(g){return !g.played&&validGame(g)}
-function isSelected(g,state){return !!state.picks[g.id]}
+function isBaselineGame(g){return !!(g.played||g.officialIncluded)}
+// A final score may appear before District 1 posts its points. Keep it out of
+// hypothetical selections until both sources agree; do not count it twice.
+function isFuture(g){return !isBaselineGame(g)&&!g.pendingOfficial&&validGame(g)}
+function matchGame(a,b){
+ if(!a||!b||!a.date||!b.date)return false;
+ if(!((a.home===b.home&&a.away===b.away)||(a.home===b.away&&a.away===b.home)))return false;
+ const da=Date.parse(a.date+'T12:00:00Z'),db=Date.parse(b.date+'T12:00:00Z');
+ return Number.isFinite(da)&&Number.isFinite(db)&&Math.abs(da-db)<=2*86400000;
+}
+function isSelected(g,state){return isFuture(g)&&!!state.picks[g.id]}
 function baselineWins(n,state){let v=state.baseWins?.[n];if(v!==undefined&&v!==''&&v!==null)return Number(v);return BASE[n]?.w ?? null}
 function classFromEnrollment(n){if(!Number.isInteger(n)||n<1)return null;for(let o of DATA.classRanges||[]){if(n>=o.min&&n<=o.max)return o.cls;}return null}
 function clsFor(n,state){let enrolled=state.enrollmentCounts?.[n];return state.classOverride?.[n]||(enrolled!==undefined&&enrolled!==''?classFromEnrollment(Number(enrolled)):null)||BASE[n]?.cls||null}
-function gameResult(g,state){if(g.played)return g.homeScore===g.awayScore?'T':g.homeScore>g.awayScore?g.home:g.away;return state.picks[g.id]==='home'?g.home:state.picks[g.id]==='away'?g.away:null}
+function gameResult(g,state){if(g.played){if(!Number.isInteger(g.homeScore)||!Number.isInteger(g.awayScore))return null;return g.homeScore===g.awayScore?'T':g.homeScore>g.awayScore?g.home:g.away;}if(g.officialIncluded||g.pendingOfficial)return null;return state.picks[g.id]==='home'?g.home:state.picks[g.id]==='away'?g.away:null}
 function gameScore(g,state){if(g.played)return [g.homeScore,g.awayScore];let v=state.scores[g.id];return v&&v.length===2&&v[0]!==''&&v[1]!==''&&Number.isFinite(+v[0])&&Number.isFinite(+v[1])?[+v[0],+v[1]]:null}
 function calculate(state=current){
  const games=allGames(state).filter(validGame);
- const played=games.filter(g=>g.played),selected=games.filter(g=>!g.played&&!!gameResult(g,state));
+ const played=games.filter(isBaselineGame),selected=games.filter(g=>isFuture(g)&&!!gameResult(g,state));
  const deltaWins={},playedBy={};
  for(const g of selected){let w=gameResult(g,state);deltaWins[w]=(deltaWins[w]||0)+1}
  const deltaFor=n=>(deltaWins[n]||0)+(MAINSET.has(n)?0:Math.max(0,Number(state.extras[n]||0)));
@@ -75,11 +118,11 @@ function calculate(state=current){
   const points=t.points+addedWin+newBonus+bonusDelta;
   rows.push({...t,projectWins:t.w+nowGames.filter(g=>gameResult(g,state)===t.name).length,projectLosses:t.l+nowGames.filter(g=>gameResult(g,state)!==t.name).length,bonusDelta,newBonus,addedWin,pointsProj:points,rating:points/n,played:n,open:gamesFor(t.name).filter(isFuture).filter(g=>!isSelected(g,state)).length,issues});
  }
- function headToHead(a,b){const h=played.concat(selected).filter(g=>(g.home===a.name&&g.away===b.name)||(g.home===b.name&&g.away===a.name));if(!h.length)return 0;let av=0,bv=0;for(const g of h){const w=gameResult(g,state);av+=w===a.name?1:0;bv+=w===b.name?1:0}return bv-av}
+ function headToHead(a,b){const h=played.concat(selected).filter(g=>(g.home===a.name&&g.away===b.name)||(g.home===b.name&&g.away===a.name));if(!h.length)return 0;let av=0,bv=0;for(const g of h){const w=gameResult(g,state);if(w===null)continue;av+=w===a.name?1:0;bv+=w===b.name?1:0}return bv-av}
  function pct(a){return a.played?a.projectWins/a.played:0}
- function scheduleStrength(n){let foes=games.filter(g=>g.home===n||g.away===n).filter(g=>g.played||isSelected(g,state)).map(g=>g.home===n?g.away:g.home);let sum=0,div=0;for(let other of foes){let w=totalFor(other),baseLoss=BASE[other]?.l;let pickedLoss=selected.filter(g=>(g.home===other||g.away===other)&&gameResult(g,state)!==other).length;let loss=Number.isFinite(baseLoss)?baseLoss+pickedLoss:null;if(w!==null&&loss!==null&&w+loss){sum+=w/(w+loss);div++}}return div?sum/div:0}
- function commonRecord(a,b){const ga=games.filter(g=>(g.home===a.name||g.away===a.name)&&(g.played||isSelected(g,state)));const gb=games.filter(g=>(g.home===b.name||g.away===b.name)&&(g.played||isSelected(g,state)));
-  let A=new Map(),B=new Map();for(const g of ga){let o=g.home===a.name?g.away:g.home;A.set(o,[...(A.get(o)||[]),gameResult(g,state)===a.name]);}for(const g of gb){let o=g.home===b.name?g.away:g.home;B.set(o,[...(B.get(o)||[]),gameResult(g,state)===b.name]);}
+ function scheduleStrength(n){let foes=games.filter(g=>g.home===n||g.away===n).filter(g=>isBaselineGame(g)||isSelected(g,state)).map(g=>g.home===n?g.away:g.home);let sum=0,div=0;for(let other of foes){let w=totalFor(other),baseLoss=BASE[other]?.l;let pickedLoss=selected.filter(g=>(g.home===other||g.away===other)&&gameResult(g,state)!==other).length;let loss=Number.isFinite(baseLoss)?baseLoss+pickedLoss:null;if(w!==null&&loss!==null&&w+loss){sum+=w/(w+loss);div++}}return div?sum/div:0}
+ function commonRecord(a,b){const ga=games.filter(g=>(g.home===a.name||g.away===a.name)&&(isBaselineGame(g)||isSelected(g,state)));const gb=games.filter(g=>(g.home===b.name||g.away===b.name)&&(isBaselineGame(g)||isSelected(g,state)));
+  let A=new Map(),B=new Map();for(const g of ga){let result=gameResult(g,state);if(result===null)continue;let o=g.home===a.name?g.away:g.home;A.set(o,[...(A.get(o)||[]),result===a.name]);}for(const g of gb){let result=gameResult(g,state);if(result===null)continue;let o=g.home===b.name?g.away:g.home;B.set(o,[...(B.get(o)||[]),result===b.name]);}
   let aw=0,an=0,bw=0,bn=0;for(const [o,ar] of A){if(!B.has(o))continue;for(let x of ar){aw+=x?1:0;an++}for(let x of B.get(o)){bw+=x?1:0;bn++}}
   return an&&bn?(bw/bn)-(aw/an):0}
  function defenseAgainst(n, oppSet){let total=0,seen=0;for(const g of games){if((g.home!==n&&g.away!==n)||(oppSet&& !oppSet.has(g.home===n?g.away:g.home)))continue;const score=gameScore(g,state);if(score){total+=(g.home===n?score[1]:score[0]);seen++}}return seen?[total,seen]:null}
@@ -100,12 +143,14 @@ function renderAll(){const calc=calculate();$('statPicks').textContent=calc.main
  $('cutoffInfo').innerHTML=`<div class="kpi-row"><span>16th · ${clean(calc.rows[15].name)}</span><b>${fmt(calc.rows[15].rating)}</b></div><div class="kpi-row"><span>17th · ${clean(calc.rows[16].name)}</span><b>${fmt(calc.rows[16].rating)}</b></div><div class="kpi-row"><span>Margin</span><b>${fmt(calc.rows[15].rating-calc.rows[16].rating)}</b></div>`;
  renderScenarioSelect();renderSection(tab,calc);
 }
-function renderSection(t,cal){cal=cal||calculate();if(t==='standings')renderStandings(cal);if(t==='games')renderGames(cal);if(t==='bracket')renderBracket(cal);if(t==='opponents')renderOpponents(cal);if(t==='compare')renderCompare();if(t==='audit')renderAudit()}
+function renderSection(t,cal){cal=cal||calculate();if(t==='standings')renderStandings(cal);if(t==='games')renderGames(cal);if(t==='bracket')renderBracket(cal);if(t==='opponents')renderOpponents(cal);if(t==='compare')renderCompare();if(t==='audit')renderAudit();if(t==='numbers')renderNumbersDashboard(cal)}
 function renderStandings(c){$('standingsLabel').textContent=c.mainPicked===0?'Official published rankings • '+DATA.asOf:'Scenario standings • '+c.mainPicked+' of '+c.mainTotal+' 6A games decided';let term=$('searchTeam').value.toLowerCase();let rows=c.rows.filter(r=>r.name.toLowerCase().includes(term)).filter(r=>view==='playoffs'?r.seed<=16:view==='bubble'?r.seed>=10&&r.seed<=22:true);
  $('rankingRows').innerHTML=rows.map(r=>`<tr><td class="center"><span class="seed ${r.seed<=16?'top':''}">${r.seed}</span></td><td class="center"><span class="delta ${r.move>0?'up':r.move<0?'down':''}">${r.move>0?'▲'+r.move:r.move<0?'▼'+Math.abs(r.move):'—'}</span></td><td><button class="team-link" data-team="${clean(r.name)}">${clean(short(r.name))}</button>${r.issues.length?' <span title="Missing data" style="color:#cb852c">⚠</span>':''}${r.tied?' <span title="Tiebreak order provisional" style="color:#8395a6">≋</span>':''}</td><td class="center mono">${r.projectWins}–${r.projectLosses}</td><td class="right mono"><strong>${fmt(r.rating)}</strong></td><td class="right mono">${Math.round(r.pointsProj).toLocaleString()}</td><td class="right mono">${r.played}</td><td class="right mono">${r.open}</td><td>${r.seed<=16?'<span class="pill good">Playoff field</span>':r.seed<=20?'<span class="pill warn">Bubble</span>':'<span class="pill gray">Outside</span>'}</td></tr>`).join('');
  document.querySelectorAll('[data-team]').forEach(b=>b.onclick=()=>{detail=detail===b.dataset.team?'':b.dataset.team;renderStandings(c)});
- if(detail){let r=c.rows.find(x=>x.name===detail);if(r){let games=c.games.filter(g=>g.home===detail||g.away===detail).sort((a,b)=>a.date.localeCompare(b.date));$('teamDetail').style.display='block';$('teamDetail').innerHTML=`<div class="detail-drawer"><div class="detail-head"><div><h3>${clean(r.name)} · Projected #${r.seed}</h3><p class="minihelp" style="margin:5px 0 0">Official #${r.officialSeed} • ${r.w}–${r.l} • ${fmt(r.points/(r.w+r.l))} rating (snapshot divisor ${r.w+r.l})</p></div><button class="btn tiny" id="closeDetail">× Close</button></div><div class="detail-grid"><div class="mini-stat"><span>Added win pts</span><b>${r.addedWin}</b></div><div class="mini-stat"><span>New bonuses</span><b>+${r.newBonus}</b></div><div class="mini-stat"><span>Earlier bonus change</span><b>+${r.bonusDelta}</b></div><div class="mini-stat"><span>Projected total</span><b>${r.pointsProj}</b></div></div><div class="detail-list">${games.map(g=>{let w=gameResult(g,current),res=g.played?((g.home===detail?g.homeScore:g.awayScore)+'–'+(g.home===detail?g.awayScore:g.homeScore)):w?(w===detail?'W':'L'):'TBD';let other=g.home===detail?g.away:g.home;return `<div class="detail-game"><span>${g.date.slice(5)} · ${g.home===detail?'vs':'@'} ${clean(other)}</span><span class="${w===detail?'win':w&&w!==detail?'lose':''}">${res}</span></div>`}).join('')}</div>${r.issues.length?`<p class="pill warn">⚠ ${clean(r.issues.join('; '))}</p>`:''}</div>`;$('closeDetail').onclick=()=>{detail='';renderStandings(c)}}else{$('teamDetail').style.display='none'}}else $('teamDetail').style.display='none';}
+ if(detail){let r=c.rows.find(x=>x.name===detail);if(r){let games=c.games.filter(g=>g.home===detail||g.away===detail).sort((a,b)=>a.date.localeCompare(b.date));$('teamDetail').style.display='block';$('teamDetail').innerHTML=`<div class="detail-drawer"><div class="detail-head"><div><h3>${clean(r.name)} · Projected #${r.seed}</h3><p class="minihelp" style="margin:5px 0 0">Official #${r.officialSeed} • ${r.w}–${r.l} • ${fmt(r.points/(r.w+r.l))} rating (snapshot divisor ${r.w+r.l})</p></div><button class="btn tiny" id="closeDetail">× Close</button></div><div class="detail-grid"><div class="mini-stat"><span>Added win pts</span><b>${r.addedWin}</b></div><div class="mini-stat"><span>New bonuses</span><b>+${r.newBonus}</b></div><div class="mini-stat"><span>Earlier bonus change</span><b>+${r.bonusDelta}</b></div><div class="mini-stat"><span>Projected total</span><b>${r.pointsProj}</b></div></div><div class="detail-list">${games.map(g=>{let w=gameResult(g,current),res=g.played&&Number.isInteger(g.homeScore)&&Number.isInteger(g.awayScore)?((g.home===detail?g.homeScore:g.awayScore)+'–'+(g.home===detail?g.awayScore:g.homeScore)):g.officialIncluded?'Included in official standings':g.pendingOfficial?'Final reported · points pending':w?(w===detail?'W':'L'):'TBD';let other=g.home===detail?g.away:g.home;return `<div class="detail-game"><span>${g.date.slice(5)} · ${g.home===detail?'vs':'@'} ${clean(other)}</span><span class="${w===detail?'win':w&&w!==detail?'lose':''}">${res}</span></div>`}).join('')}</div>${r.issues.length?`<p class="pill warn">⚠ ${clean(r.issues.join('; '))}</p>`:''}</div>`;$('closeDetail').onclick=()=>{detail='';renderStandings(c)}}else{$('teamDetail').style.display='none'}}else $('teamDetail').style.display='none';}
 function renderGames(c){let team=$('gameTeamFilter').value,week=$('weekFilter').value,typ=$('gameTypeFilter').value;let games=c.games.filter(isFuture).filter(g=>!team||g.home===team||g.away===team).filter(g=>typ==='all'||(typ==='main'?isMain(g):!isMain(g))).filter(g=>!week||(week==='2026-10-15'?g.date<='2026-10-18':week==='2026-10-19'?g.date>='2026-10-19'&&g.date<='2026-10-25':g.date>='2026-10-26'));
+ const confirmed=c.games.filter(g=>isMain(g)&&isBaselineGame(g)&&!INITIAL_PLAYED.has(g.id)).length;const awaiting=c.games.filter(g=>isMain(g)&&g.pendingOfficial).length;
+ $('countedGamesNotice').innerHTML='<strong>Game-status sync:</strong> '+confirmed+' newer matchup(s) already included in the official standings and hidden from What-If.'+(awaiting?' '+awaiting+' reported final(s) are awaiting updated official standings and cannot be picked.':'')+' The official point totals remain the baseline; finished games are never projected a second time.';
  $('gameRows').innerHTML=games.length?games.map(g=>`<div class="game-row ${!isMain(g)?'support':''}"><div class="game-date">${new Date(g.date+'T13:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'})}</div><div class="game-name">${clean(g.away)} <span style="color:#98a6b5;font-weight:400">@</span> ${clean(g.home)}<small>${isMain(g)?'6A-linked game':'Supporting opponent game'}${g.custom?' · custom':''}</small></div><div><select class="pick ${isSelected(g,current)?'selected':''}" data-game="${g.id}" aria-label="Winner of ${clean(g.away)} at ${clean(g.home)}"><option value="">Choose winner…</option><option value="home" ${current.picks[g.id]==='home'?'selected':''}>${clean(g.home)} wins</option><option value="away" ${current.picks[g.id]==='away'?'selected':''}>${clean(g.away)} wins</option></select><div class="score-inputs" style="${isSelected(g,current)?'':'display:none'}"><input type="number" min="0" max="200" placeholder="Home" aria-label="Home score" data-score-id="${g.id}" data-score-num="0" value="${current.scores?.[g.id]?.[0]??''}"><span>–</span><input type="number" min="0" max="200" placeholder="Away" aria-label="Away score" data-score-id="${g.id}" data-score-num="1" value="${current.scores?.[g.id]?.[1]??''}"><span>optional score</span></div></div></div>`).join(''):'<div class="empty">No matchups found for these filters.</div>';
  document.querySelectorAll('[data-game]').forEach(s=>s.onchange=()=>{if(s.value){current.picks[s.dataset.game]=s.value;let v=current.scores[s.dataset.game];if(v&&v.length===2&&v[0]!==''&&v[1]!==''&&(Number(v[0])>Number(v[1])?'home':'away')!==s.value)delete current.scores[s.dataset.game]}else{delete current.picks[s.dataset.game];delete current.scores[s.dataset.game]}current.name=activeSave?saved[activeSave]?.name||current.name:current.name;persist();renderAll()});
  document.querySelectorAll('[data-score-id]').forEach(el=>el.onchange=()=>{const id=el.dataset.scoreId;let arr=current.scores[id]||['',''];arr[Number(el.dataset.scoreNum)]=el.value;current.scores[id]=arr;let g=allGames().find(g=>g.id===id);if(arr.every(x=>x!=='')){if(Number(arr[0])===Number(arr[1])){toast('Tie scores are not supported. Use non-tied scores.');delete current.scores[id]}else{current.picks[id]=Number(arr[0])>Number(arr[1])?'home':'away'}}persist();renderAll()});}
@@ -139,50 +184,95 @@ function exportState(){let payload={app:'PIAA D1 6A Playoff Lab',version:1,snaps
 function importState(file){let reader=new FileReader();reader.onload=()=>{try{let d=JSON.parse(reader.result);if(d.version!==1||!d.current||typeof d.current.picks!=='object')throw Error('Invalid format');current={...createState(),...d.current};saved=d.saved||{};activeSave='';persist();renderAll();toast('Scenarios imported successfully')}catch(e){alert('Could not import this scenario file. '+e.message)}};reader.readAsText(file)}
 function modal(open){$('addModal').classList.toggle('show',!!open);$('newGameError').textContent=''}
 function populate(){let options=DATA.teams.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${clean(t.name)}">${clean(t.name)} (${clean(t.cls||'class?')})</option>`).join('');for(let id of ['newHome','newAway'])$(id).innerHTML=options;$('newHome').value='KENNETT';$('newAway').value='UPPER DUBLIN';$('gameTeamFilter').innerHTML='<option value="">Every team</option>'+MAIN.map(n=>`<option>${clean(n)}</option>`).join('');$('compareA').onchange=renderCompare;$('compareB').onchange=renderCompare}
-function addSupportGame(){let d=$('newDate').value,h=$('newHome').value,a=$('newAway').value;if(!d||!h||!a||h===a||d<'2026-10-15'||d>'2026-10-31')return $('newGameError').textContent='Enter a valid date and two different teams.';if(allGames().some(g=>g.date===d&&new Set([g.home,g.away]).has(h)&&new Set([g.home,g.away]).has(a)))return $('newGameError').textContent='That matchup already exists. Select its winner instead.';let id='c'+Date.now();current.customGames.push({id,date:d,home:h,away:a,homeScore:null,awayScore:null,played:false,custom:true,support:!MAINSET.has(h)&&!MAINSET.has(a)});persist();modal(false);tabTo('games');toast('Supporting game added')}
+function addSupportGame(){let d=$('newDate').value,h=$('newHome').value,a=$('newAway').value;if(!d||!h||!a||h===a||d<'2026-10-15'||d>'2026-10-31')return $('newGameError').textContent='Enter a valid date and two different teams.';if(allGames().some(g=>matchGame(g,{date:d,home:h,away:a})))return $('newGameError').textContent='That matchup already exists. Select its winner instead.';let id='c'+Date.now();current.customGames.push({id,date:d,home:h,away:a,homeScore:null,awayScore:null,played:false,custom:true,support:!MAINSET.has(h)&&!MAINSET.has(a)});persist();modal(false);tabTo('games');toast('Supporting game added')}
 function wire(){document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>tabTo(b.dataset.tab));document.querySelectorAll('[data-goto]').forEach(b=>b.onclick=()=>tabTo(b.dataset.goto));$('searchTeam').oninput=()=>renderStandings(calculate());$('rankView').onchange=e=>{view=e.target.value;renderStandings(calculate())};for(let id of ['gameTeamFilter','weekFilter','gameTypeFilter'])$(id).onchange=()=>renderGames(calculate());$('oppSearch').oninput=()=>renderOpponents(calculate());$('saveBtn').onclick=$('gamesSaveBtn').onclick=saveScenario;$('scenarioSelect').onchange=e=>{let k=e.target.value;if(k&&saved[k]){current=clone(saved[k]);activeSave=k}else activeSave='';persist();renderAll()};$('newBtn').onclick=()=>{if(!confirm('Start a new working scenario? Saved scenarios will remain.'))return;current=createState();activeSave='';persist();renderAll()};$('overwriteBtn').onclick=()=>{if(!activeSave)return;saved[activeSave]=clone(current);persist();toast('Saved scenario updated')};$('deleteBtn').onclick=()=>{if(!activeSave||!confirm('Delete selected saved scenario?'))return;delete saved[activeSave];activeSave='';persist();renderAll();toast('Scenario deleted')};$('favoritesBtn').onclick=favoritePicks;$('clearPicksBtn').onclick=()=>{if(!confirm('Clear all game picks and entered scores in this working scenario?'))return;current.picks={};current.scores={};persist();renderAll()};$('exportBtn').onclick=exportState;$('importBtn').onclick=()=>$('importFile').click();$('importFile').onchange=e=>{let f=e.target.files[0];if(f)importState(f);e.target.value=''};$('goCheckResults').onclick=()=>{tabTo('audit');checkFeed(true)};$('addGameBtn').onclick=()=>modal(true);$('modalClose').onclick=$('modalCancel').onclick=()=>modal(false);$('addModal').onclick=e=>{if(e.target===$('addModal'))modal(false)};$('modalAdd').onclick=addSupportGame}
 
-function newGameCount(n,stat){let confirmed=DATA.games.filter(g=>g.played&&!INITIAL_PLAYED.has(g.id)&&(g.home===n||g.away===n)).length;return Math.max(0,(stat.w+stat.l)-INITIAL_MAIN_COUNTS[n]-confirmed)}
+function newGameCount(n,stat){let confirmed=DATA.games.filter(g=>isBaselineGame(g)&&!INITIAL_PLAYED.has(g.id)&&(g.home===n||g.away===n)).length;return Math.max(0,(stat.w+stat.l)-INITIAL_MAIN_COUNTS[n]-confirmed)}
 function applyOfficialFeed(feed,fromCache=false){
  if(!feed||!feed.rankings||MAIN.some(n=>!feed.rankings[n]))return false;
- let official=feed.rankings,quota={};
+ const official=feed.rankings,quota={};
  for(let n of MAIN)quota[n]=newGameCount(n,official[n]);
- // The official ranking total is authoritative. Scores only become "played" when that
- // school's official W/L advances, preventing doubles while rankings lag score posting.
- let byKey=g=>g.date+'|'+[g.home,g.away].sort().join('|');
- let existing=new Map(DATA.games.map(g=>[byKey(g),g]));
- let ordered=(feed.games||[]).slice().sort((a,b)=>a.date.localeCompare(b.date));
- let accepted=0,pending=[];
- for(let f of ordered){if(!f.date||!f.home||!f.away||f.date>'2026-10-31'||f.date<'2026-08-21')continue;
-  const k=byKey(f),g=existing.get(k);
-  if(f.played&&(!Number.isInteger(f.homeScore)||!Number.isInteger(f.awayScore)))continue;
-  const members=[f.home,f.away].filter(n=>MAINSET.has(n));
-  let promote=f.played && (g?.played || (members.length>0&&members.every(n=>quota[n]>0)) || (members.length===0));
-  if(f.played&&!promote){pending.push(f.away+' @ '+f.home);continue;}
-  if(!g){let obj={...f,id:'feed'+Math.abs(hashString(k)),support:members.length===0,played:promote};DATA.games.push(obj);existing.set(k,obj);if(promote){accepted++;for(let n of members)quota[n]--;}}
-  else if(promote&&!g.played){g.played=true;g.homeScore=f.homeScore;g.awayScore=f.awayScore;accepted++;for(let n of members)quota[n]--;}
-  else if(promote&&g.played&&Number.isInteger(f.homeScore)&&Number.isInteger(f.awayScore)){g.homeScore=f.homeScore;g.awayScore=f.awayScore;}
+ const ordered=(feed.games||[]).filter(f=>f.date&&f.home&&f.away&&validGame(f)).slice().sort((a,b)=>a.date.localeCompare(b.date));
+ let accepted=0,pending=[],inferred=[];
+ // Match by both teams and within 2 calendar days, not just the date. The two
+ // school pages can describe a rescheduled Thursday/Friday game differently.
+ for(const f of ordered){
+  let g=DATA.games.find(x=>matchGame(x,f));
+  if(!g){g={...f,id:'feed'+Math.abs(hashString(f.date+'|'+[f.home,f.away].sort().join('|'))),support:!isMain(f),played:false,homeScore:null,awayScore:null};DATA.games.push(g)}
+  const members=[g.home,g.away].filter(n=>MAINSET.has(n));
+  const final=f.played&&Number.isInteger(f.homeScore)&&Number.isInteger(f.awayScore);
+  if(!final)continue;
+  // Reorient the score if the two schedule sources reverse home/away fields.
+  const same=(g.home===f.home&&g.away===f.away);
+  const hs=same?f.homeScore:f.awayScore,as=same?f.awayScore:f.homeScore;
+  if(g.played){g.homeScore=hs;g.awayScore=as;g.pendingOfficial=false;continue}
+  if(g.officialIncluded||members.length===0||members.every(n=>quota[n]>0)){
+    if(!g.officialIncluded)for(const n of members)quota[n]--;
+    g.played=true;g.officialIncluded=false;g.homeScore=hs;g.awayScore=as;g.pendingOfficial=false;accepted++;
+  }else{
+    // Result is known, but the new point totals do not include it yet.
+    g.pendingOfficial=true;g.reportedHomeScore=hs;g.reportedAwayScore=as;
+    pending.push(f.away+' @ '+f.home);
+  }
  }
- for(const [n,v] of Object.entries(official)){let t=BASE[n];if(!t)continue;
-  if(MAINSET.has(n)&&v.points!=null){t.points=v.points;if(v.seed)t.officialSeed=v.seed;}
+ // A scoreboard page can temporarily become unavailable. If the previous
+ // verified final is still cached, promote it when official W/L totals catch up.
+ for(const g of DATA.games){
+  if(!g.pendingOfficial||!Number.isInteger(g.reportedHomeScore)||!Number.isInteger(g.reportedAwayScore))continue;
+  const members=[g.home,g.away].filter(n=>MAINSET.has(n));
+  if(members.length&&members.every(n=>quota[n]>0)){
+   g.played=true;g.pendingOfficial=false;g.homeScore=g.reportedHomeScore;g.awayScore=g.reportedAwayScore;
+   for(const n of members)quota[n]--;
+   accepted++;
+  }
+ }
+ // If a completed game is missing from the scoreboard feed but the OFFICIAL
+ // W/L has advanced, lock it only when the outstanding dated games uniquely
+ // account for the record increases. No winner or score is invented.
+ const checkedDay=(feed.checkedAt||'').slice(0,10)||new Date().toISOString().slice(0,10);
+ let candidates=DATA.games.filter(g=>isMain(g)&&!isBaselineGame(g)&&!g.pendingOfficial&&validGame(g)&&g.date<=checkedDay).sort((a,b)=>a.date.localeCompare(b.date));
+ let changed=true;
+ while(changed){
+  changed=false;
+  for(const g of candidates){
+   if(isBaselineGame(g))continue;
+   const members=[g.home,g.away].filter(n=>MAINSET.has(n));
+   if(!members.length||!members.every(n=>quota[n]>0))continue;
+   const unique=members.every(n=>candidates.filter(x=>!isBaselineGame(x)&&(x.home===n||x.away===n)&&x.date<=checkedDay).length<=quota[n]);
+   if(!unique)continue;
+   g.officialIncluded=true;g.pendingOfficial=false;
+   for(const n of members)quota[n]--;
+   inferred.push(g.away+' @ '+g.home);accepted++;changed=true;
+  }
+ }
+ // Do not preserve hypothetical outcomes for games included in the official
+ // rankings. Removing them from the saved selections prevents double counting.
+ let cleared=0;
+ for(const state of [current,...Object.values(saved)]){
+  for(const g of DATA.games){if(isFuture(g))continue;
+   if(Object.prototype.hasOwnProperty.call(state.picks||{},g.id)){delete state.picks[g.id];cleared++}
+   if(Object.prototype.hasOwnProperty.call(state.scores||{},g.id))delete state.scores[g.id];
+  }
+ }
+ if(cleared)persist();
+ for(const [n,v] of Object.entries(official)){const t=BASE[n];if(!t)continue;
+  if(MAINSET.has(n)&&v.points!=null){t.points=v.points;if(v.seed)t.officialSeed=v.seed}
   if(v.w!=null)t.w=v.w;if(v.l!=null)t.l=v.l;
  }
  extraRecordChecks=[];
  for(const [n,v] of Object.entries(feed.externalRecords||{})){
   if(!BASE[n]||MAINSET.has(n))continue;
-  // This updates the record used for *future-game bonus projections*.
-  // Never add these wins a second time to published District 1 point totals.
-  let t=BASE[n];if(Number.isInteger(v.w)&&Number.isInteger(v.l)){
+  const t=BASE[n];if(Number.isInteger(v.w)&&Number.isInteger(v.l)){
    const had=Number.isInteger(t.w)&&Number.isInteger(t.l)?t.w+t.l:-1;
-   if(v.w+v.l>=had){t.w=v.w;t.l=v.l;t.recordSource=v.source;t.recordStatus='supplemental';extraRecordChecks.push(n);}
+   if(v.w+v.l>=had){t.w=v.w;t.l=v.l;t.recordSource=v.source;t.recordStatus='supplemental';extraRecordChecks.push(n)}
   }
  }
  DATA.asOf='Latest official sync: '+new Date(feed.checkedAt).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
  DATA.games.sort((a,b)=>a.date.localeCompare(b.date)||a.home.localeCompare(b.home));
- lastLiveCheck=feed.checkedAt;livePending=pending;feedWarnings=feed.warnings||[];lastMaxprepsAudit=feed.maxprepsAudit||null;
+ lastLiveCheck=feed.checkedAt;livePending=pending;feedWarnings=[...(feed.warnings||[]),...inferred.map(n=>'Official W/L includes '+n+'; exact final score not independently retrieved')];lastMaxprepsAudit=feed.maxprepsAudit||null;
  $('headerSnapshot').textContent='Official refreshed data';
  try{localStorage.setItem(LIVE_STORE,JSON.stringify(feed))}catch(e){}
- if(accepted&&!fromCache)toast('Official standings updated; '+accepted+' scores confirmed');
+ if(accepted&&!fromCache)toast('Game-status sync: '+accepted+' games completed or included in official results');
  renderAll();return true;
 }
 function hashString(s){let h=0;for(let i=0;i<s.length;i++)h=((h<<5)-h+s.charCodeAt(i))|0;return h}
@@ -215,7 +305,125 @@ async function checkFeed(manual=false){
  }finally{refreshBusy=false}
 }
 
-hydrate();populate();wire();
-try{let cachedFeed=JSON.parse(localStorage.getItem(LIVE_STORE)||'null');if(cachedFeed)applyOfficialFeed(cachedFeed,true)}catch(e){}
+// On-device rules-based Numbers Assistant. Nothing is sent to a third-party AI service.
+// All explanations use the exact DATA, BASE, calculate(), and selected scenario that drive the main table.
+let auditChatHistory=[];
+let lastAuditTeam='';
+const numfmt=n=>Number.isFinite(n)?Number(n).toLocaleString('en-US',{maximumFractionDigits:3}):'Unknown';
+const datestr=s=>s?new Date(s+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'}):'?';
+const numberSource=()=>lastLiveCheck?'District 1 feed checked '+new Date(lastLiveCheck).toLocaleString():'Embedded District 1 snapshot dated October 15, 2026 (not live)';
+function detailedAudit(name,state=current,calc=calculate(state)){
+ const t=BASE[name],r=calc.rows.find(x=>x.name===name);
+ if(!t||!r)return null;
+ let baseW=0,baseB=0,missingWins=[],missingClasses=[],missingResults=[],games=[],warnings=[];
+ for(const g of calc.played.filter(g=>g.home===name||g.away===name).sort((a,b)=>a.date.localeCompare(b.date))){
+  const opp=g.home===name?g.away:g.home;
+  const result=gameResult(g,state),won=result===name?true:result===null?null:false,c=clsFor(opp,state),w=baselineWins(opp,state);
+  const winPts=won===null?null:won?(REQCLASS.includes(c)?140-20*REQCLASS.indexOf(c):null):0;
+  if(result===null)missingResults.push(opp);
+  const bonusPts=w===null?null:10*w;
+  if(winPts===null&&won!==null)missingClasses.push(opp);
+  if(bonusPts===null)missingWins.push(opp);
+  if(winPts!==null)baseW+=winPts;
+  if(bonusPts!==null)baseB+=bonusPts;
+  games.push({date:g.date,opp,won,cls:c,oppWins:w,winPts,bonusPts,id:g.id});
+ }
+ const baseKnown=baseW+baseB,unexplained=t.points-baseKnown;
+ const baselineMissing=missingWins.length+missingClasses.length+missingResults.length;
+ if(games.length!==t.w+t.l)warnings.push('Game-list count '+games.length+' does not match published '+(t.w+t.l)+' games.');
+ if(state.baseWins&&Object.keys(state.baseWins).some(n=>games.some(g=>g.opp===n)))warnings.push('Manual opponent records may not match the date of the official point snapshot.');
+ const knownAdd=r.addedWin+r.newBonus+r.bonusDelta;
+ return {team:t,row:r,games,baseW,baseB,baseKnown,unexplained,missingWins,missingClasses,missingResults,baselineMissing,warnings,knownAdd,
+  state:baselineMissing?'incomplete':warnings.length?'review':Math.abs(unexplained)<.00001?'matched':'mismatch'};
+}
+function showLedger(a){return '<div class="audit-ledger-wrap"><table class="audit-ledger"><thead><tr><th>Date</th><th>Opponent</th><th>W/L</th><th>Class</th><th>Opp W</th><th>Win pts</th><th>Bonus pts</th></tr></thead><tbody>'+a.games.map(g=>`<tr><td>${clean(datestr(g.date))}</td><td>${clean(g.opp)}</td><td>${g.won===null?'?':g.won?'W':'L'}</td><td>${clean(g.cls||'?')}</td><td>${g.oppWins===null?'?':g.oppWins}</td><td>${g.winPts===null?'?':g.winPts}</td><td>${g.bonusPts===null?'?':g.bonusPts}</td></tr>`).join('')+'</tbody></table></div>'}
+function numberOverview(a,includeLedger=false){
+ const r=a.row,t=a.team,baseline=a.baseKnown;
+ let status=a.state==='matched'?'<span class="pill good">Fully reconciled</span>':a.state==='mismatch'?'<span class="pill bad">Check discrepancy</span>':'<span class="pill warn">Incomplete verification</span>';
+ let explanation='';
+ if(a.state==='incomplete'){
+   let m=[];if(a.missingWins.length)m.push('missing win records for '+a.missingWins.map(clean).join(', '));
+   if(a.missingClasses.length)m.push('unverified classifications for '+a.missingClasses.map(clean).join(', '));
+   if(a.missingResults.length)m.push('officially included game(s) with scores not yet independently retrieved: '+a.missingResults.map(clean).join(', '));
+   const inferred=(a.missingWins.length&&!a.missingResults.length&&a.missingClasses.length===0&&a.unexplained>=0&&a.unexplained%10===0)?` If all other inputs match the official snapshot, the unresolved ${numfmt(a.unexplained)} points would correspond to ${a.unexplained/10} opponent wins in total; that does not establish any individual opponent's record.`:'';
+   explanation=`<p class="numbers-caution"><strong>The ${numfmt(a.unexplained)}-point difference is not proof of an error.</strong> The reconstruction is missing ${m.join('; ')}. The official published total stays authoritative.${inferred}</p>`;
+ }else if(a.state==='mismatch')explanation=`<p class="numbers-caution"><strong>Attention:</strong> All game inputs currently have values, but the known game-by-game sum differs by ${numfmt(a.unexplained)} points. Check source snapshot dates, game records, classifications and the District's official divisor/adjustments.</p>`;
+ else explanation='<p class="numbers-ok">All game-level win and bonus totals match the official published point total with the inputs currently stored.</p>';
+ const project=`<div class="numbers-equation"><strong>Current scenario:</strong> ${numfmt(t.points)} official base + ${numfmt(r.addedWin)} new win pts + ${numfmt(r.newBonus)} bonus from selected games + ${numfmt(r.bonusDelta)} change in bonuses from previous opponents = <strong>${numfmt(r.pointsProj)} total ÷ ${numfmt(r.played)} games = ${fmt(r.rating)} rating</strong>.</div>`;
+ return `<div class="numbers-report"><div class="numbers-report-title"><strong>${clean(t.name)}</strong>${status}</div><div class="numbers-equation"><strong>Official baseline:</strong> ${numfmt(t.points)} total ÷ ${t.w+t.l} games = ${fmt(t.points/(t.w+t.l))}. Published seed #${t.officialSeed}; record ${t.w}–${t.l}.</div><div class="numbers-equation">Game-by-game reconstruction: ${numfmt(a.baseW)} known win pts + ${numfmt(a.baseB)} known bonus pts = <strong>${numfmt(baseline)}</strong>. Remaining amount not independently reconstructed: <strong>${numfmt(a.unexplained)}</strong>.</div>${explanation}${a.warnings.map(x=>`<p class="numbers-caution">${clean(x)}</p>`).join('')}${project}${r.issues.length?`<p class="numbers-caution">Scenario data gaps: ${clean(r.issues.join('; '))}.</p>`:''}${includeLedger?showLedger(a):''}<div class="numbers-source">Source: ${clean(numberSource())}. Bonus values depend on opponent wins in the defined ranking window; out-of-district records may be incomplete.</div></div>`;
+}
+function renderNumbersDashboard(cal=calculate()){
+ const results=cal.rows.map(r=>detailedAudit(r.name,current,cal));
+ const full=results.filter(a=>a.state==='matched').length,failed=results.filter(a=>a.state==='mismatch').length,partial=results.filter(a=>a.state==='incomplete'||a.state==='review').length;
+ $('numbersSummary').innerHTML=`<strong>Reconciliation of 30 Class 6A teams:</strong> ${full} complete matches · ${partial} incomplete/needs review · ${failed} numerical mismatches with available inputs. <small>${clean(numberSource())}</small>`;
+ const previous=$('numbersTeam').value;
+ if(!$('numbersTeam').dataset.ready){$('numbersTeam').innerHTML='<option value="">Select team…</option>'+MAIN.map(n=>`<option value="${clean(n)}">${clean(n)}</option>`).join('');$('numbersTeam').dataset.ready='true'}
+ if(previous&&MAINSET.has(previous))$('numbersTeam').value=previous;
+ const n=$('numbersTeam').value;
+ $('numbersTeamReport').innerHTML=n?numberOverview(detailedAudit(n,current,cal),true):'<div class="minihelp">Select a school to see the official total, the game-by-game point ledger, missing records, and scenario calculations.</div>';
+ $('numbersAuditRows').innerHTML=results.map(a=>`<tr><td><button class="team-link" data-audit-team="${clean(a.team.name)}">${clean(a.team.name)}</button></td><td class="right mono">${numfmt(a.team.points)}</td><td class="right mono">${numfmt(a.baseKnown)}</td><td class="right mono">${numfmt(a.unexplained)}</td><td>${a.state==='matched'?'<span class="pill good">Match</span>':a.state==='mismatch'?'<span class="pill bad">Mismatch</span>':'<span class="pill warn">Incomplete</span>'}</td></tr>`).join('');
+ document.querySelectorAll('[data-audit-team]').forEach(el=>el.onclick=()=>{$('numbersTeam').value=el.dataset.auditTeam;$('numbersTeamReport').innerHTML=numberOverview(detailedAudit(el.dataset.auditTeam,current),true);$('numbersTeamReport').scrollIntoView({behavior:'smooth',block:'nearest'})});
+}
+function getMentionedTeams(question){
+ const q=String(question).toUpperCase().replace(/[^A-Z0-9]/g,'');
+ const aliases={ 'CBWEST':'CB WEST','CBSOUTH':'CB SOUTH','CBEAST':'CB EAST','CRSOUTH':'COUNCIL ROCK SOUTH','CRNORTH':'COUNCIL ROCK NORTH','CRS':'COUNCIL ROCK SOUTH','CRN':'COUNCIL ROCK NORTH','DTEAST':'DOWNINGTOWN EAST','DTWEST':'DOWNINGTOWN WEST','PLYMOUTHWHITEMARSH':'PLYMOUTH WHITEMARSH','OJR':'OWEN J. ROBERTS','TRUMAN':'HARRY S. TRUMAN' };
+ let names=MAIN.filter(n=>q.includes(n.replace(/[^A-Z0-9]/g,'')));
+ for(const [alias,school] of Object.entries(aliases)){if(q.includes(alias)&&!names.includes(school))names.push(school)}
+ return names.sort((a,b)=>q.indexOf(a.replace(/[^A-Z0-9]/g,''))-q.indexOf(b.replace(/[^A-Z0-9]/g,'')));
+}
+
+function findExternalMention(raw){
+ const q=String(raw).toUpperCase().replace(/[^A-Z0-9]/g,'');
+ return DATA.teams.filter(t=>!MAINSET.has(t.name)).sort((a,b)=>b.name.length-a.name.length).find(t=>q.includes(t.name.toUpperCase().replace(/[^A-Z0-9]/g,'')));
+}
+function answerNumbersQuestion(raw){
+ const q=raw.toLowerCase(); const c=calculate(),mentioned=getMentionedTeams(raw); const chosen=mentioned.length?mentioned[0]:$('numbersTeam').value||lastAuditTeam;
+ const external=findExternalMention(raw);
+ if(external&&(!mentioned.length||/(enroll|classif|what class|opponent record|how many wins)/.test(q))){
+  const cl=clsFor(external.name,current),wins=baselineWins(external.name,current);
+  const count=c.played.filter(g=>MAINSET.has(g.home)&&g.away===external.name||MAINSET.has(g.away)&&g.home===external.name).length;
+  const basis=external.classStatus==='official-piaa'?'PIAA assigned classification':external.classStatus==='non-piaa-provisional'?'provisional non-PIAA enrollment-derived classification':'classification listed in the dataset; verification may still be required';
+  return `<p><strong>${clean(external.name)}</strong> is recorded as class <strong>${clean(cl||'unverified')}</strong> (${clean(basis)}). Baseline opponent wins: <strong>${wins===null?'unknown':wins}</strong>. It appears in ${count} completed 6A matchup(s).</p><p>${wins===null?'Its missing win count prevents independent reconstruction of '+(10*count)+' possible point contributions across the affected teams.':'Each completed 6A game against this school receives 10 × '+wins+' = '+(10*wins)+' baseline bonus points, subject to the District official ranking window.'}</p><p class="numbers-source">${clean(external.recordSource||'No supplemental record source verified')}. Never assign a non-PIAA class solely from unverified grade 9–12 enrollment.</p>`;
+ }
+ if(/^(help|what can you do|commands|examples|how do i use)/i.test(q.trim()))return `<p>Ask me to <strong>audit all teams</strong>, <strong>check Pennridge's points</strong>, <strong>show Penn Wood's game breakdown</strong>, <strong>compare North Penn and CB East</strong>, or <strong>explain bonus points</strong>. I use the numbers displayed in this tracker, not a generative AI model.</p>`;
+ if(/^(audit all|check all|all teams|find discrepancies|find errors|which teams|missing data|unresolved|scan)/i.test(q.trim())||(/(all|which|every|teams)/.test(q)&&/(audit|discrepan|error|missing|check|reconcil)/.test(q)&&!mentioned.length)){
+  let audits=c.rows.map(r=>detailedAudit(r.name,current,c));let done=audits.filter(a=>a.state==='matched'),bad=audits.filter(a=>a.state==='mismatch'),gaps=audits.filter(a=>a.state!=='matched'&&a.state!=='mismatch');
+  return `<p><strong>All-team check:</strong> ${done.length} reconcile from stored game-level data; ${gaps.length} lack a complete independent reconstruction; ${bad.length} show a potential mismatch even with inputs available.</p><div class="numbers-smalltable"><table><thead><tr><th>School</th><th>Unreconstructed pts</th><th>Cause</th></tr></thead><tbody>${[...bad,...gaps].sort((x,y)=>Math.abs(y.unexplained)-Math.abs(x.unexplained)).slice(0,30).map(a=>`<tr><td>${clean(a.team.name)}</td><td>${numfmt(a.unexplained)}</td><td>${a.state==='mismatch'?'Numerical difference':(a.missingWins.length+' unknown win record(s), '+a.missingClasses.length+' unknown win class(es), '+a.missingResults.length+' missing final score(s)')}</td></tr>`).join('')}</tbody></table></div><p class="numbers-source">An unreconstructed amount is not an error unless every relevant input is independently verified. Use the team selector for game-by-game detail.</p>`;
+ }
+ if(/(how (are|do|does) (bonus|win) points|explain (bonus|win) points|what is the (point|power ranking) formula|scoring rules|point system)/.test(q)||(/(formula|divis(or|ion))/.test(q)&&!mentioned.length)){
+  return `<p><strong>6A scoring:</strong> Each win earns 140 points against 6A, 120 against 5A, 100 against 4A, 80 against 3A, 60 against 2A, or 40 against A. A loss earns zero win points.</p><p><strong>Bonus:</strong> You receive 10 points for every win by each opponent during the District-defined season, regardless of whether you beat that opponent. Opponent wins after your game still contribute.</p><p><strong>Rating:</strong> (win points + opponent bonuses) ÷ games played in the eligible period. The District can use an approved adjusted divisor for unusual schedules. The app uses played games as the usual divisor.</p><p class="numbers-source">The app's base totals follow official District 1 values; game-by-game checks are limited by available opponent records.</p>`;
+ }
+ if(/(updated|refresh|source|current|live|when did)/.test(q)&&!chosen){return `<p>Current numbers source: <strong>${clean(numberSource())}</strong>.</p><p>The browser checks the shared hosted feed if one is available. A downloaded HTML copy starts with October 15 data and does <strong>not</strong> automatically obtain new scores.</p>`;}
+ if(!chosen)return `<p>I can check any of the 30 District 1 6A schools. Try <strong>“Why does Pennridge have 1,220 points?”</strong>, <strong>“Audit all teams”</strong>, or <strong>“How are bonus points calculated?”</strong></p>`;
+ const a=detailedAudit(chosen,current,c),r=a.row;
+ if(mentioned.length>=2&&/(compar|versus| vs |difference|higher|better|between)/.test(q)){
+   let b=detailedAudit(mentioned[1],current,c),d=r.rating-b.row.rating;
+   return `<p><strong>${clean(chosen)}</strong> is projected #${r.seed} (${fmt(r.rating)}); <strong>${clean(mentioned[1])}</strong> is projected #${b.row.seed} (${fmt(b.row.rating)}). Difference: ${fmt(Math.abs(d))} rating points.</p><p>${clean(chosen)}: ${numfmt(r.pointsProj)} ÷ ${r.played}. ${clean(mentioned[1])}: ${numfmt(b.row.pointsProj)} ÷ ${b.row.played}.</p><p>The base figures are official published totals; scenario adjustments depend on selected game outcomes. Tiebreak order is provisional.</p>`;
+ }
+ if(/(opponents|schedule|games|breakdown|game by game|ledger|details)/.test(q))return numberOverview(a,true);
+ if(/(scenario|project|what if|change|selected|bonus delta|extra point|new point)/.test(q))return `<p><strong>${clean(chosen)}'s current scenario calculation:</strong></p>`+numberOverview(a,false);
+ if(/(seed|ranking|rank|qualify|playoff|bubble)/.test(q))return `<p><strong>${clean(chosen)}</strong> is currently projected #${r.seed} of 30, with a ${fmt(r.rating)} rating (${numfmt(r.pointsProj)} ÷ ${r.played}). ${r.seed<=16?'Inside the provisional 16-team playoff field.':'Outside the provisional top 16.'} This can change when you pick additional games or outside opponents earn wins.</p><p>${r.tied?'A rating tie exists. Official tie-breaking decisions may differ from the provisional order.':''}</p>`;
+ if(/(missing|unknown|error|wrong|mismatch|add up|reconcil|check|point|rating|total|why|audit|explain|how)/.test(q))return numberOverview(a,true);
+ return `<p>Here is the point audit for <strong>${clean(chosen)}</strong>:</p>`+numberOverview(a,false);
+}
+function addChatMessage(role,html){let bubble=document.createElement('div');bubble.className='number-message '+(role==='user'?'from-user':'from-assistant');bubble.innerHTML=role==='user'?`<span>${clean(html)}</span>`:html;$('numbersChatMessages').appendChild(bubble);$('numbersChatMessages').scrollTop=$('numbersChatMessages').scrollHeight;}
+function askNumbers(q){q=String(q||'').trim().slice(0,400);if(!q)return;addChatMessage('user',q);const detected=getMentionedTeams(q);if(detected.length)lastAuditTeam=detected[0];const out=answerNumbersQuestion(q);addChatMessage('assistant',out);$('numbersChatInput').value='';auditChatHistory.push({q,time:new Date().toISOString()});}
+function wireNumbersAssistant(){
+ $('numbersTeam').addEventListener('change',()=>{$('numbersTeamReport').innerHTML=$('numbersTeam').value?numberOverview(detailedAudit($('numbersTeam').value),true):''});
+ $('numbersChatForm').addEventListener('submit',e=>{e.preventDefault();askNumbers($('numbersChatInput').value)});
+ document.querySelectorAll('[data-ask]').forEach(el=>el.onclick=()=>askNumbers(el.dataset.ask));
+ $('numbersTeamAsk').onclick=()=>{let n=$('numbersTeam').value;if(n)askNumbers('Show '+n+' game-by-game point breakdown');else toast('Choose a team first')};
+ $('numbersExport').onclick=()=>{
+   const rows=[['team','official_points','known_win_points','known_bonus_points','known_subtotal','unreconstructed_points','missing_opponent_wins','missing_win_classifications','status','source_snapshot']];
+   for(const n of MAIN){let a=detailedAudit(n);rows.push([n,a.team.points,a.baseW,a.baseB,a.baseKnown,a.unexplained,a.missingWins.join('; '),a.missingClasses.join('; '),a.state,numberSource()])}
+   const csv=rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='PIAA_D1_6A_2026_Points_Audit.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),500);
+ };
+ renderNumbersDashboard();
+ addChatMessage('assistant',`<p>Hi! I check <strong>District 1 point calculations</strong> using your exact tracker data. Ask a team question or choose a suggested audit below. If a record is missing, I'll say so rather than guessing.</p><p class="numbers-source">${clean(numberSource())}</p>`);
+}
+
+hydrate();populate();wire();wireNumbersAssistant();
+try{let cachedFeed=JSON.parse(localStorage.getItem(LIVE_STORE)||'null');if(cachedFeed){applyOfficialFeed(cachedFeed,true);lastLiveFeedId=cachedFeed.checkedAt}}catch(e){}
 renderAll();$('refreshNowBtn').onclick=()=>checkFeed(true);checkFeed(false);setInterval(()=>checkFeed(false),3*60*1000);
 </script></body></html>
